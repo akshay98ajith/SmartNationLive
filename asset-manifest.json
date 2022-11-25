@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SmartNationLive/static/css/main.4b3be671.css",
-    "main.js": "/SmartNationLive/static/js/main.78d8e931.js",
+    "main.js": "/SmartNationLive/static/js/main.eb12812f.js",
     "static/js/787.f01b092f.chunk.js": "/SmartNationLive/static/js/787.f01b092f.chunk.js",
     "static/media/landingBg.png": "/SmartNationLive/static/media/landingBg.0e2a4c5146ed7493532c.png",
     "static/media/videoImg.png": "/SmartNationLive/static/media/videoImg.fcef80f2b4f080f74042.png",
@@ -21,11 +21,11 @@
     "static/media/Facebook.svg": "/SmartNationLive/static/media/Facebook.af96848c466309b9388e3d092b2baef2.svg",
     "static/media/play.svg": "/SmartNationLive/static/media/play.48237d203d89778e730d86abad10180a.svg",
     "main.4b3be671.css.map": "/SmartNationLive/static/css/main.4b3be671.css.map",
-    "main.78d8e931.js.map": "/SmartNationLive/static/js/main.78d8e931.js.map",
+    "main.eb12812f.js.map": "/SmartNationLive/static/js/main.eb12812f.js.map",
     "787.f01b092f.chunk.js.map": "/SmartNationLive/static/js/787.f01b092f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b3be671.css",
-    "static/js/main.78d8e931.js"
+    "static/js/main.eb12812f.js"
   ]
 }
