@@ -1,0 +1,141 @@
+*,
+::after,
+::before {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // background: rgba(43, 205, 226, 0.119);
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "./variables.scss";
+
+@font-face {
+  font-family: "BossaExtended";
+  src: url(./assets/Fonts/Bossa-ExtendedRegular.woff2);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/Fonts/Poppins-Regular.otf);
+}
+@font-face {
+  font-family: "PoppinsLight";
+  src: url(./assets/Fonts/Poppins-Light.ttf);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  overflow-x: hidden !important;
+  font-family: "Poppins";
+  line-height: 1.2;
+}
+
+.button {
+  background: $darkGreen;
+  color: $white;
+}
+
+::selection {
+  color: $white;
+  background: $lightGreen;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #33cfab7d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #33cfaa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pages {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  color: $darkGreen;
+  font-family: "BossaExtended";
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: "BossaExtended";
+}
+h3 {
+  font-family: "BossaExtended";
+  font-weight: 600;
+  line-height: 1.5;
+}
+h4 {
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+}
+h5 {
+  color: $blue;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+h6 {
+  color: $darkGreen;
+}
+p {
+  font-weight: lighter;
+  color: $grey;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: "PoppinsLight";
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
