@@ -86,6 +86,7 @@
     margin-top: 2.5rem;
     p {
         font-size: 0.95rem;
+        text-align-last: center;
     }
     .video {
         margin-top: 2rem;
@@ -119,11 +120,15 @@
     .card {
         border: 0;
         border-radius: 0;
+        .card-body {
+            margin: 1rem 0;
+        }
         .card-title {
             color: $lightGreen;
             font-size: 1.5rem;
             font-weight: 1000;
             padding: 0 1rem;
+            margin: 0;
         }
         .card-subtitle {
             color: #000000;
@@ -134,94 +139,13 @@
     }
 }
 
-.testimonialsSection {
-    margin: 2.5rem 0;
-    padding: 4.5rem 0 2.5rem 0;
-    h2 {
-        color: $darkGreen;
-    }
-    .container {
-        background: url(../../assets/quotes.svg) no-repeat;
-        background-position: 0 0;
-        .wrapper {
-            .mtUp {
-                margin-top: -7rem;
-            }
-            .card {
-                border-radius: 8px;
-                border: 0;
-                box-shadow: 0px 10px 20px 0px #29292a12;
-                .card-body {
-                    background: url(../../assets/quotes.svg) no-repeat;
-                    background-size: 1.2rem;
-                    background-position: 0rem 3rem;
-                    .card-title {
-                        font-weight: 900;
-                        font-family: "PoppinsLight";
-                    }
-                    .card-subtitle {
-                        color: $lightGrey;
-                        font-weight: 100;
-                        font-family: "PoppinsLight";
-                        font-size: 0.8rem;
-                    }
-                    .card-text {
-                        margin: 3rem 0;
-                        line-height: 1.8;
-                        font-weight: 900;
-                    }
-                }
-            }
-        }
-    }
-}
-
 .safetySection {
     margin: 2.5rem 0;
     padding: 2.5rem 0;
 }
 
-.contactSection {
-    margin: 2.5rem 0;
-    padding: 2.5rem 0;
-    // p {
-    //     margin: 2rem 3rem 2rem 0;
-    // }
-    .accordion,
-    .accordion-header {
-        font-family: "Poppins" !important;
-    }
-    .accordion-header {
-        background-color: transparent;
-        font-weight: 200;
-        button {
-            font-size: 1.25rem;
-        }
-    }
-    .accordion-button:not(.collapsed) {
-        background-color: transparent;
-        color: $darkGreen;
-        font-weight: 900;
-    }
-    .accordion-body {
-        margin: 0.5rem 2rem 2rem 3rem;
-        font-size: 1rem;
-        font-family: "PoppinsLight";
-    }
-}
-
 @media (max-width: 1199px) {
-    .testimonialsSection {
-        .container {
-            .wrapper {
-                .mtUp {
-                    margin-top: 0;
-                }
-                .card {
-                }
-            }
-        }
-    }
+  
 }
 
 @media (max-width: 991px) {
@@ -241,16 +165,9 @@
 }
 
 @media (max-width: 767px) {
-    .testimonialsSection {
-        .container {
-            .wrapper {
-                .mtUp {
-                    margin-top: 0;
-                }
-                .card {
-                    width: auto !important;
-                }
-            }
+    .aboutSection {
+        p {
+            text-align-last: center;
         }
     }
 }

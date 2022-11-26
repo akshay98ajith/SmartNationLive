@@ -9,7 +9,6 @@ function App() {
       custom: {
         families: ["BossaExtended", "Poppins", "PoppinsLight"],
         urls: ['./index.scss']
-
       }
     })
   }, [])

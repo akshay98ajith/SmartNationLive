@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter, Outlet } from "react-router-dom";
+import { createHashRouter, Outlet } from "react-router-dom";
 import Footer from "../Molecules/Footer/Footer";
 import Header from "../Molecules/Header/Header";
 import Capabilities from "../Pages/Capabilities/Capabilities";
