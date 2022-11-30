@@ -1,0 +1,23 @@
+.videoSection {
+    padding-top: 2.5rem;
+    margin-top: 2.5rem;
+    p {
+        font-size: 0.9rem;
+        text-align-last: center;
+        padding: 1rem 0;
+    }
+    .video {
+        margin-top: 2rem;
+        max-height: 1080px;
+        height: 80vh;
+        background: url(../../../assets/videoImg.png) no-repeat;
+        background-size: cover;
+        position: relative;
+        .playBtn {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

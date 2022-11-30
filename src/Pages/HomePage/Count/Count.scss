@@ -1,0 +1,77 @@
+@import "../../../variables.scss";
+
+.countSection {
+    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
+    .container {
+        display: flex;
+        justify-content: center;
+        .card {
+            border: none;
+            padding: 0 3rem;
+            border-radius: 0;
+            h2 {
+                white-space: nowrap;
+            }
+        }
+        .card1 {
+            background-color: $darkGreen;
+            color: $white;
+            justify-content: center;
+            p {
+                white-space: nowrap;
+                color: $white;
+            }
+            width: stretch;
+        }
+        .card2 {
+            background-color: $lightGreen;
+            color: $white;
+            justify-content: center;
+            p {
+                white-space: nowrap;
+                color: $white;
+            }
+            width: stretch;
+        }
+        .upCardPos {
+            width: 34rem;
+        }
+        .upCard {
+            border-top: 5px solid $darkGreen;
+            box-shadow: 0px 2px 25px 0px #00215b33;
+            margin-top: -50%;
+            padding: 3rem;
+            h3 {
+                font-family: "Poppins";
+                font-weight: 600;
+            }
+            h6 {
+                font-weight: 700;
+            }
+            span {
+                font-size: 0.9rem;
+                color: $grey;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .countSection {
+        .container {
+            display: block !important;
+            .upCard {
+                margin-top: 0;
+            }
+            .upCardPos {
+                width: 100%;
+            }
+            .card1,
+            .card2 {
+                padding: 1.5rem 0 1rem 0;
+                text-align: center;
+            }
+        }
+    }
+}

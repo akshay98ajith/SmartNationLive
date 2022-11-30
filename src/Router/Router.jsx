@@ -1,12 +1,27 @@
-import { createHashRouter, Outlet } from "react-router-dom";
+import { useEffect } from "react";
+import { createHashRouter, Outlet, useLocation } from "react-router-dom";
 import Footer from "../Molecules/Footer/Footer";
 import Header from "../Molecules/Header/Header";
-import Capabilities from "../Pages/Capabilities/Capabilities";
+import AboutUs from "../Pages/AboutUs/AboutUs";
 import HomePage from "../Pages/HomePage/HomePage";
+
+const ScrollToTop = () => {
+    const { pathname } = useLocation();
+    useEffect(() => {
+        // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+        document.documentElement.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "instant", // Optional if you want to skip the scrolling animation
+        });
+    }, [pathname]);
+}
+
 const AddHeaderComponent = () => {
     return (
         <>
             <Header />
+            <ScrollToTop />
             <Outlet />
             <Footer />
         </>
@@ -23,60 +38,60 @@ export const router = createHashRouter([
                 element: <HomePage />
             },
             {
+                path: "/AboutUs",
+                element: <AboutUs />
+            },
+            {
                 path: "/Capabilities",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Management",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Industries",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Pricing",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/CaseStudies",
-                element: <Capabilities />
-            },
-            {
-                path: "/AboutUs",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/WhoWeAre",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Projects",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Contact",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Services",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/FAQs",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Testimonials",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Blog",
-                element: <Capabilities />
+                element: <AboutUs />
             },
             {
                 path: "/Process",
-                element: <Capabilities />
+                element: <AboutUs />
             },
         ]
     },

@@ -1,0 +1,36 @@
+@import "./../../../variables.scss";
+
+.clientsSection {
+    padding: 5rem 0;
+    background: rgb(51, 207, 170);
+    background: linear-gradient(
+        90deg,
+        rgba(51, 207, 170, 1) 0%,
+        rgba(51, 207, 170, 1) 65%,
+        rgba(51, 207, 170, 0.5) 65%,
+        rgba(51, 207, 170, 0.5) 100%
+    );
+    h2 {
+        margin: 1rem 0 3rem 0;
+    }
+    .card {
+        border: 0;
+        border-radius: 0;
+        .card-body {
+            margin: 1rem 0;
+        }
+        .card-title {
+            color: $lightGreen;
+            font-size: 1.5rem;
+            font-weight: 1000;
+            padding: 0 1rem;
+            margin: 0;
+        }
+        .card-subtitle {
+            color: #000000;
+            padding: 0 1rem;
+            font-size: 1.9rem;
+            font-weight: 1000;
+        }
+    }
+}

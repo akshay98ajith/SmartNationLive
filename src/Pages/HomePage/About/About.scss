@@ -1,0 +1,15 @@
+.aboutSection {
+    padding: 2.5rem 0;
+    margin: 2.5rem 0;
+    p {
+        text-align: justify;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutSection {
+        p {
+            text-align-last: center;
+        }
+    }
+}

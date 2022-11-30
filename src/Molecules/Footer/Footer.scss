@@ -38,6 +38,7 @@ footer {
         transition: 300ms ease;
         &:hover {
             color: $white;
+            transform: translateY(-3px);
         }
     }
     .copy {

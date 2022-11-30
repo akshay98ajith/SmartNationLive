@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Button from '../../Atoms/Button/Button'
+import Button from '../../Components/Button/Button'
 import { headLinks } from '../../Constants/Constants'
 import headLogo from './../../assets/headLogo.png'
 import "./Header.scss"
