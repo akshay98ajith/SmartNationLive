@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[854],{7854:function(n,t,a){a.r(t),a.d(t,{default:function(){return e}});a(2791);var s=a(7022),c=a(184),e=function(){return(0,c.jsx)("div",{className:"Contactlanding",children:(0,c.jsx)(s.Z,{children:(0,c.jsx)("h1",{children:"Contact Us"})})})}}}]);
+//# sourceMappingURL=854.311293cb.chunk.js.map
