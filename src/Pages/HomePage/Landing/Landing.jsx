@@ -7,7 +7,7 @@ const Landing = () => {
     return (
         <section className='landingSection'>
             <div className="bgColor">
-                <Container className='text-center'>
+                <Container className='text-center' style={{ marginBottom: "4rem" }}>
                     <h1 className=''>
                         <div className='d-flex justify-content-center align-items-center'>
                             <div className='landAnim'>S</div>

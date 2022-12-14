@@ -43,7 +43,7 @@ const Footer = () => {
                                 <Link to="/Services">Our Services</Link>
                                 <Link to="/Projects">Our Projects</Link>
                                 <Link to="/Pricing">Pricing</Link>
-                                <Link to="/Contact">Contacts</Link>
+                                <Link to="/Contact">Contact Us</Link>
                             </Col>
                             <Col sm={6} className="d-flex flex-column">
                                 <Link to="/Services">Services</Link>

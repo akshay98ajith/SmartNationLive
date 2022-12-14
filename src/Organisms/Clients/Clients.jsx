@@ -3,7 +3,7 @@ import { Card, Container } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper'
 import 'swiper/css';
-import client1 from "../../../assets/clients1.png"
+import client1 from "../../assets/clients1.png"
 import './Clients.scss'
 import { motion } from 'framer-motion';
 const Clients = () => {
@@ -12,7 +12,7 @@ const Clients = () => {
             <Container className='text-center text-md-start'>
                 <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} className="overflow-hidden">
                     <h2 className='scrollAnim'>
-                        Companies We Work With
+                        Our Projects
                     </h2>
                 </motion.div>
                 <Swiper

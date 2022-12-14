@@ -11,7 +11,7 @@ const Safety = () => {
         <section className='safetySection'>
             <Container>
                 <Row className='d-flex justify-content-center'>
-                    <Col sm={12} md={6} className="d-flex flex-column justify-content-center text-center text-md-start">
+                    <Col xs={12} sm={6} className="d-flex flex-column justify-content-center text-center text-md-start">
                         <h3>
                             Safety Professional Approved.
                         </h3>
@@ -19,7 +19,7 @@ const Safety = () => {
                             safety professionals.
                         </p>
                     </Col>
-                    <Col sm={12} md={6}>
+                    <Col xs={12} sm={6}>
                         <Row>
                             <Col xs={6} md={4} className=" text-center">
                                 <img src={appImg1} alt="" className="imgfluid" />

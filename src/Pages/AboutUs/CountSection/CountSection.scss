@@ -1,0 +1,47 @@
+@import "../../../variables.scss";
+
+.CountSectionAbout {
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: -7rem;
+        .card {
+            border: none;
+            padding: 3rem;
+            border-radius: 0;
+            h2 {
+                white-space: nowrap;
+            }
+        }
+        .card1 {
+            background-color: $darkGreen;
+            color: $white;
+            justify-content: center;
+            p {
+                white-space: nowrap;
+                color: $white;
+            }
+            width: stretch;
+        }
+        .card2 {
+            background-color: $lightGreen;
+            color: $white;
+            justify-content: center;
+            p {
+                white-space: nowrap;
+                color: $white;
+            }
+            width: stretch;
+        }
+        .card3 {
+            background-color: $darkGreen;
+            color: $white;
+            justify-content: center;
+            p {
+                white-space: nowrap;
+                color: $white;
+            }
+            width: stretch;
+        }
+    }
+}

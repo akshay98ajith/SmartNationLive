@@ -1,0 +1,11 @@
+@import "../../../variables.scss";
+
+.Contactlanding {
+    height: 50vh;
+    background: url("./../../../assets/ContactLanding.png") no-repeat;
+    background-size: cover;
+    max-height: 550px;
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+}

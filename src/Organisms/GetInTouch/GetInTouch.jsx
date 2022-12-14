@@ -1,8 +1,8 @@
 import React from 'react'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
-import Button from '../../../Components/Button/Button'
 import "./GetInTouch.scss"
 import { motion } from 'framer-motion'
+import Button from '../../Components/Button/Button'
 
 const GetInTouch = () => {
     return (

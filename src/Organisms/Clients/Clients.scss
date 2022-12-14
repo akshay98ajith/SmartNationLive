@@ -1,4 +1,4 @@
-@import "./../../../variables.scss";
+@import "./../../variables.scss";
 
 .clientsSection {
     padding: 5rem 0;
@@ -6,8 +6,8 @@
     background: linear-gradient(
         90deg,
         rgba(51, 207, 170, 1) 0%,
-        rgba(51, 207, 170, 1) 65%,
-        rgba(51, 207, 170, 0.5) 65%,
+        rgba(51, 207, 170, 1) 40%,
+        rgba(51, 207, 170, 0.5) 40%,
         rgba(51, 207, 170, 0.5) 100%
     );
     h2 {

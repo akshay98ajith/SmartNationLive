@@ -3,7 +3,11 @@ import { createHashRouter, Outlet, useLocation } from "react-router-dom";
 import Footer from "../Molecules/Footer/Footer";
 import Header from "../Molecules/Header/Header";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/HomePage/HomePage";
+import DetailPage from "../Pages/Products/List/Detail/DetailPage";
+import Products from "../Pages/Products/Products";
+import Projects from "../Pages/Projects/Projects";
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();
@@ -50,8 +54,24 @@ export const router = createHashRouter([
                 element: <AboutUs />
             },
             {
-                path: "/Industries",
-                element: <AboutUs />
+                path: "/Products",
+                element: <Products />,
+            },
+            {
+                path: "/Products/Service1",
+                element: <DetailPage title='Service 1' />
+            },
+            {
+                path: "/Products/Service2",
+                element: <DetailPage title='Service 2' />
+            },
+            {
+                path: "/Products/Service3",
+                element: <DetailPage title='Service 1' />
+            },
+            {
+                path: "/Products/Service4",
+                element: <DetailPage title='Service 1' />
             },
             {
                 path: "/Pricing",
@@ -67,11 +87,11 @@ export const router = createHashRouter([
             },
             {
                 path: "/Projects",
-                element: <AboutUs />
+                element: <Projects />
             },
             {
                 path: "/Contact",
-                element: <AboutUs />
+                element: <Contact />
             },
             {
                 path: "/Services",

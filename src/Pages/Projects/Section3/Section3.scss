@@ -1,0 +1,40 @@
+.projectPage {
+    .Section3 {
+        .row {
+            .col-3 {
+                padding: 0;
+                .bar {
+                    height: 500px;
+                    padding: 4rem;
+                    h4 {
+                        font-size: 2.5rem;
+                    }
+                }
+                .bar1 {
+                    background: url("../../../assets/bar1.png") no-repeat;
+                    background-size: cover;
+                    background-position: 50%;
+                }
+                .bar2 {
+                    background: url("../../../assets/bar2.png");
+                    background-size: cover;
+                    background-position: 50%;
+                }
+                .bar3 {
+                    background: url("../../../assets/bar3.png");
+                    background-size: cover;
+                    background-position: 50%;
+                    color: #ffffff;
+                    p {
+                        color: #ffffff;
+                    }
+                }
+                .bar4 {
+                    background: url("../../../assets/bar4.png");
+                    background-size: cover;
+                    background-position: 50%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import "../../../variables.scss";
+
+.projectPage {
+    .book {
+        h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1.2rem;
+        }
+        margin: 2.5rem 0;
+        padding: 2.5rem 0;
+        form {
+            display: flex;
+            flex-direction: column;
+            input,
+            textarea {
+                margin: 0.5rem 0 1.5rem 0;
+            }
+        }
+        .upCard {
+            border-top: 5px solid $darkGreen;
+            box-shadow: 0px 2px 25px 0px #00215b33;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 0;
+            padding: 3rem;
+            h3 {
+                font-family: "Poppins";
+                font-weight: 600;
+            }
+            h6 {
+                font-weight: 700;
+            }
+            span {
+                font-size: 0.9rem;
+                color: $grey;
+            }
+        }
+    }
+}

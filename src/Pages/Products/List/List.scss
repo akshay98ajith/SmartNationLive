@@ -1,0 +1,38 @@
+@import "../../../variables.scss";
+
+.ProductsList {
+    margin: 2.5rem 0;
+    padding: 2.5rem 0;
+    .row {
+        width: 75%;
+        margin: auto;
+        img {
+            // width: 50%;
+        }
+        .col-sm-6 {
+            padding: 0;
+        }
+        .ProductCards {
+            padding: 3rem;
+            background: $darkGreen;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #ffffff !important;
+            p {
+                color: #ffffff !important;
+            }
+            .btn {
+                color: #ffffff;
+                width: fit-content;
+                border: 2px solid #ffffff;
+                padding: 0.9rem 4rem;
+                border-radius: 0;
+                &:hover {
+                    background: #ffffff;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

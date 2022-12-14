@@ -1,0 +1,25 @@
+@import "../../../variables.scss";
+
+.projectPage {
+    .Section4 {
+        height: 75vh;
+        background: url(../../../assets/projAnBanner.png) no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        p {
+            color: #ffffff;
+        }
+        h5 {
+            font-size: 2rem;
+            font-weight: 100 !important;
+        }
+        h4 {
+            font-size: 3rem;
+            font-weight: 900 !important;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@import "./../../../variables.scss";
+@import "./../../variables.scss";
 
 .contactSection {
     margin: 2.5rem 0;
@@ -27,7 +27,7 @@
         font-size: 1rem;
         font-family: "PoppinsLight";
     }
-    .accordion-button:focus{
+    .accordion-button:focus {
         border: 0;
         box-shadow: none;
     }
