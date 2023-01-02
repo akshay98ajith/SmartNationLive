@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/793.66922009.chunk.css","mappings":"AAEA,eACI,gBACA","sources":["Pages/AboutUs/Section3/Section3.scss"],"sourcesContent":["@import \"../../../variables.scss\";\r\n\r\n.AboutSection3 {\r\n    margin: 2.5rem 0;\r\n    padding: 2.5rem 0;\r\n}\r\n"],"names":[],"sourceRoot":""}

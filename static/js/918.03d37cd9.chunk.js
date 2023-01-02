@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[918],{3918:function(n,e,s){s.r(e),s.d(e,{default:function(){return a}});s(2791);var r=s(7022),i=s(184),a=function(){return(0,i.jsx)("div",{className:"Landing",children:(0,i.jsx)("div",{className:"bgColor",children:(0,i.jsxs)(r.Z,{children:[(0,i.jsx)("h1",{children:"Safety Brain"}),(0,i.jsx)("h3",{children:"The HSC Management Solution Built for Professionals. "}),(0,i.jsx)("p",{children:"Smart Solutions for Every Jobsite Safety"})]})})})}}}]);
+//# sourceMappingURL=918.03d37cd9.chunk.js.map
