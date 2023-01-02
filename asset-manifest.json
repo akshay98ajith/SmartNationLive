@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SmartNationLive/static/css/main.26041648.css",
-    "main.js": "/SmartNationLive/static/js/main.89b97251.js",
+    "main.js": "/SmartNationLive/static/js/main.7054cbd0.js",
     "static/css/232.5c18a026.chunk.css": "/SmartNationLive/static/css/232.5c18a026.chunk.css",
     "static/js/232.272d7155.chunk.js": "/SmartNationLive/static/js/232.272d7155.chunk.js",
     "static/css/491.bda7532c.chunk.css": "/SmartNationLive/static/css/491.bda7532c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/793.54116119.chunk.js": "/SmartNationLive/static/js/793.54116119.chunk.js",
     "static/css/116.2aedb1ec.chunk.css": "/SmartNationLive/static/css/116.2aedb1ec.chunk.css",
     "static/js/116.c4fc5ed1.chunk.js": "/SmartNationLive/static/js/116.c4fc5ed1.chunk.js",
-    "static/css/854.07f4d53e.chunk.css": "/SmartNationLive/static/css/854.07f4d53e.chunk.css",
+    "static/css/854.2dc5175f.chunk.css": "/SmartNationLive/static/css/854.2dc5175f.chunk.css",
     "static/js/854.311293cb.chunk.js": "/SmartNationLive/static/js/854.311293cb.chunk.js",
     "static/css/534.1327279f.chunk.css": "/SmartNationLive/static/css/534.1327279f.chunk.css",
     "static/js/534.4437a736.chunk.js": "/SmartNationLive/static/js/534.4437a736.chunk.js",
@@ -92,7 +92,7 @@
     "static/media/Facebook.svg": "/SmartNationLive/static/media/Facebook.af96848c466309b9388e3d092b2baef2.svg",
     "static/media/play.svg": "/SmartNationLive/static/media/play.48237d203d89778e730d86abad10180a.svg",
     "main.26041648.css.map": "/SmartNationLive/static/css/main.26041648.css.map",
-    "main.89b97251.js.map": "/SmartNationLive/static/js/main.89b97251.js.map",
+    "main.7054cbd0.js.map": "/SmartNationLive/static/js/main.7054cbd0.js.map",
     "232.5c18a026.chunk.css.map": "/SmartNationLive/static/css/232.5c18a026.chunk.css.map",
     "232.272d7155.chunk.js.map": "/SmartNationLive/static/js/232.272d7155.chunk.js.map",
     "491.bda7532c.chunk.css.map": "/SmartNationLive/static/css/491.bda7532c.chunk.css.map",
@@ -103,7 +103,7 @@
     "793.54116119.chunk.js.map": "/SmartNationLive/static/js/793.54116119.chunk.js.map",
     "116.2aedb1ec.chunk.css.map": "/SmartNationLive/static/css/116.2aedb1ec.chunk.css.map",
     "116.c4fc5ed1.chunk.js.map": "/SmartNationLive/static/js/116.c4fc5ed1.chunk.js.map",
-    "854.07f4d53e.chunk.css.map": "/SmartNationLive/static/css/854.07f4d53e.chunk.css.map",
+    "854.2dc5175f.chunk.css.map": "/SmartNationLive/static/css/854.2dc5175f.chunk.css.map",
     "854.311293cb.chunk.js.map": "/SmartNationLive/static/js/854.311293cb.chunk.js.map",
     "534.1327279f.chunk.css.map": "/SmartNationLive/static/css/534.1327279f.chunk.css.map",
     "534.4437a736.chunk.js.map": "/SmartNationLive/static/js/534.4437a736.chunk.js.map",
@@ -137,6 +137,6 @@
   },
   "entrypoints": [
     "static/css/main.26041648.css",
-    "static/js/main.89b97251.js"
+    "static/js/main.7054cbd0.js"
   ]
 }
