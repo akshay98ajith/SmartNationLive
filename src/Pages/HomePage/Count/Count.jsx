@@ -10,7 +10,7 @@ const Count = () => {
     return (
         <section className='countSection'>
             <Container>
-                <div className='d-flex'>
+                {/* <div className='d-flex'>
                     <Card className='card1'>
                         <div className="overflow-hidden">
                             <motion.div className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
@@ -27,12 +27,9 @@ const Count = () => {
                             </motion.div>
                         </div>
                     </Card>
-                </div>
+                </div> */}
                 <div className='upCardPos'>
                     <Card className='upCard'>
-                        <div className="overflow-hidden">
-                            <motion.h3 className='text-center text-sm-start scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>Easy, Paperless Tailgate Meetings & Toolbox Talks</motion.h3>
-                        </div>
                         <div className="overflow-hidden">
                             <Row className='my-3 d-flex align-items-center text-center text-sm-start scrollAnim'>
                                 <Col sm={2}>
@@ -40,8 +37,8 @@ const Count = () => {
                                 </Col>
                                 <Col sm={10}>
                                     <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
-                                        <h6>Easy in the Field. Easy in the Office</h6>
-                                        <span>Smart nation is easy for everyone in the field, GCs, and anyone in between</span>
+                                        <h6>Reliable</h6>
+                                        <span>Establish Transparent and On-Demand Workforce Safety Parameter Checks.</span>
                                     </motion.div>
                                 </Col>
                             </Row>
@@ -53,8 +50,8 @@ const Count = () => {
                                 </Col>
                                 <Col sm={10}>
                                     <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
-                                        <h6>Huge Library of Topics + Personalized</h6>
-                                        <span>Smart nation arrives preloaded with a massive library of common safety topics</span>
+                                        <h6>Seamless</h6>
+                                        <span>Enable Easy & Seamless Connections between On & Off-site Professionals.</span>
                                     </motion.div>
                                 </Col>
                             </Row>
@@ -66,8 +63,8 @@ const Count = () => {
                                 </Col>
                                 <Col sm={10}>
                                     <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
-                                        <h6>Full Accountability & Transparency</h6>
-                                        <span>Quickly perform Toolbox Audits to ensure field users remain in full compliance</span>
+                                        <h6>Customizable</h6>
+                                        <span>Implement Personalized & Customizable Machine Learning Experiences & empower yourself with Holistic Libraries of HSC Knowledge</span>
                                     </motion.div>
                                 </Col>
                             </Row>

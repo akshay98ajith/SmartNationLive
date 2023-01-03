@@ -1,20 +1,29 @@
 import React from 'react'
-import Clients from '../../Organisms/Clients/Clients'
-import CountSection from './CountSection/CountSection'
-import Landing from './Landing/Landing'
-import Section2 from './Section2/Section2'
-import Section3 from './Section3/Section3'
-import VideoSection from './Video/VideoSection'
+import { Suspense } from 'react'
+const CountSection = React.lazy(() => import('./CountSection/CountSection'))
+const Landing = React.lazy(() => import('./Landing/Landing'))
+const Section2 = React.lazy(() => import('./Section2/Section2'))
+const Section3 = React.lazy(() => import('./Section3/Section3'))
+const VideoSection = React.lazy(() => import('./Video/VideoSection'))
 
 const AboutUs = () => {
     return (
         <div className='pages'>
-            <Landing />
-            <CountSection />
-            <Section2 />
-            <VideoSection />
-            <Section3 />
-            <Clients />
+            <Suspense fallback={<></>}>
+                <Landing />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <CountSection />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <Section2 />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <VideoSection />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <Section3 />
+            </Suspense>
         </div>
     )
 }

@@ -1,0 +1,72 @@
+@import "../../variables.scss";
+
+footer {
+    padding: 5rem 0;
+    background: rgb(21, 65, 66);
+    background: linear-gradient(
+        90deg,
+        rgba(21, 65, 66, 1) 0%,
+        rgba(21, 65, 66, 1) 40%,
+        rgba(51, 207, 170, 1) 40%,
+        rgba(51, 207, 170, 1) 100%
+    );
+    p {
+        color: $white;
+        margin: 2rem 0;
+    }
+
+    h5 {
+        font-family: "PoppinsLight";
+        color: $white;
+        font-weight: 200;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-family: "Poppins";
+        font-weight: 900;
+        color: $white;
+    }
+    h6 {
+        font-size: 1.4rem;
+    }
+    a {
+        font-family: "PoppinsLight";
+        color: $grey;
+        margin: 0.7rem 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: 300ms ease;
+        &:hover {
+            color: $white;
+            transform: translateY(-3px);
+        }
+    }
+    .copy {
+        font-size: 1.1rem;
+        padding-top: 1.3rem;
+        color: $grey;
+        font-weight: 900;
+    }
+    .social {
+        width: 60%;
+    }
+}
+
+@media (max-width: 575px) {
+    footer {
+        padding: 5rem 1rem;
+        background: linear-gradient(
+            180deg,
+            rgba(21, 65, 66, 1) 0%,
+            rgba(21, 65, 66, 1) 45%,
+            rgba(51, 207, 170, 1) 45%,
+            rgba(51, 207, 170, 1) 100%
+        );
+        h6 {
+            margin-top: 8rem;
+        }
+        .social {
+            width: 100%;
+        }
+    }
+}

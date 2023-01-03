@@ -1,32 +1,30 @@
 export const headLinks = [
-  // {
-  //   id: 0,
-  //   label: "Capabilities",
-  //   link: "/Capabilities",
-  // },
   {
     id: 1,
-    label: "Projects",
-    link: "/Projects",
+    label: "Home",
+    link: "/",
   },
   {
-    id: 2,
-    label: "Products",
-    link: "/Products",
+    id: 0,
+    label: "Platform",
+    link: "/Product-Platform",
   },
-  // {
-  //   id: 3,
-  //   label: "Pricing",
-  //   link: "/Pricing",
-  // },
-  // {
-  //   id: 4,
-  //   label: "Case Studies",
-  //   link: "/CaseStudies",
-  // },
   {
-    id: 5,
+    id: 1,
     label: "About Us",
     link: "/AboutUs",
   },
+  {
+    id: 2,
+    label: "Contact Us",
+    link: "/Contact",
+  },
+];
+
+export const footLinks = [
+  {
+    id:0,
+    label:"User Login",
+    link:"/user"
+  }
 ];

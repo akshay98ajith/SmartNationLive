@@ -1,0 +1,49 @@
+@import "../../../variables.scss";
+
+.Login {
+    height: 800px;
+    width: 100%;
+    // background: $lightGreen;
+    background: url("../../../assets/loginBG.jpeg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #33cfab5b;
+        z-index: 0;
+        backdrop-filter: blur(20px);
+        pointer-events: none;
+    }
+    .card {
+        z-index: 1;
+        padding: 4rem;
+        border: none;
+        background: $darkGreen;
+        form {
+            color: #ffffff;
+            label {
+                font-size: 1rem;
+            }
+            input {
+                background: #215c5d;
+                border: 0;
+                color: #ffffff;
+                &::placeholder {
+                    color: #8b8b8b;
+                }
+            }
+            button {
+                width: stretch;
+                background: #ffffff;
+                color: $darkGreen;
+                padding: 0.5rem 0 !important;
+            }
+        }
+    }
+}

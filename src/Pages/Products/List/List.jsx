@@ -11,38 +11,44 @@ const List = () => {
     return (
         <div className='ProductsList'>
             <Container>
-                <Row className='justify-content-center'>
-                    <Col sm={6}>
-                        <img src={product1} alt="" className="img-fluid float-end" />
+                <Row>
+                    <Col md={6} className='colNew'>
+                        <img src={product1} alt="" className="img-fluid" />
                     </Col>
-                    <Col sm={6} className="ProductCards">
+                    <Col md={6} className="ProductCards colNew">
                         <h4>Service 1</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
                         <Link to={`/Products/Service1`} className='btn '>Learn More</Link>
                     </Col>
-                    <Col sm={6} className='ProductCards'>
+                </Row>
+                <Row className='flex-sm-row-reverse'>
+                    <Col md={6} className='colNew'>
+                        <img src={product2} alt="" className="img-fluid" />
+                    </Col>
+                    <Col md={6} className='ProductCards colNew'>
                         <h4>Service 2</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
                         <Link to={`/Products/Service2`} className='btn '>Learn More</Link>
                     </Col>
-                    <Col sm={6}>
-                        <img src={product2} alt="" className="img-fluid" />
-                    </Col>
-                    <Col sm={6}>
+                </Row>
+                <Row>
+                    <Col md={6} className='colNew'>
                         <img src={product3} alt="" className="img-fluid" />
                     </Col>
-                    <Col sm={6} className='ProductCards'>
+                    <Col md={6} className='ProductCards colNew'>
                         <h4>Service 3</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
                         <Link to={`/Products/Service3`} className='btn '>Learn More</Link>
                     </Col>
-                    <Col sm={6} className='ProductCards'>
+                </Row>
+                <Row className='flex-sm-row-reverse'>
+                    <Col md={6} className='colNew'>
+                        <img src={product4} alt="" className="img-fluid" />
+                    </Col>
+                    <Col md={6} className='ProductCards colNew'>
                         <h4>Service 4</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
                         <Link to={`/Products/Service4`} className='btn '>Learn More</Link>
-                    </Col>
-                    <Col sm={6}>
-                        <img src={product4} alt="" className="img-fluid" />
                     </Col>
                 </Row>
             </Container>

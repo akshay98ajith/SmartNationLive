@@ -1,13 +1,15 @@
 import { useEffect } from "react";
 import { createHashRouter, Outlet, useLocation } from "react-router-dom";
-import Footer from "../Molecules/Footer/Footer";
-import Header from "../Molecules/Header/Header";
+import Footer from "../Components/Footer/Footer";
+import Header from "../Components/Header/Header";
+import Login from "../Pages/Auth/Login/Login";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/HomePage/HomePage";
 import DetailPage from "../Pages/Products/List/Detail/DetailPage";
 import Products from "../Pages/Products/Products";
 import Projects from "../Pages/Projects/Projects";
+import Auth from "../Pages/Auth/Auth";
 
 const ScrollToTop = () => {
     const { pathname } = useLocation();
@@ -46,31 +48,23 @@ export const router = createHashRouter([
                 element: <AboutUs />
             },
             {
-                path: "/Capabilities",
-                element: <AboutUs />
-            },
-            {
-                path: "/Management",
-                element: <AboutUs />
-            },
-            {
-                path: "/Products",
+                path: "/Industries",
                 element: <Products />,
             },
             {
-                path: "/Products/Service1",
+                path: "/Industries/Industries1",
                 element: <DetailPage title='Service 1' />
             },
             {
-                path: "/Products/Service2",
+                path: "/Industries/Industries2",
                 element: <DetailPage title='Service 2' />
             },
             {
-                path: "/Products/Service3",
+                path: "/Industries/Industries3",
                 element: <DetailPage title='Service 1' />
             },
             {
-                path: "/Products/Service4",
+                path: "/Industries/Industries4",
                 element: <DetailPage title='Service 1' />
             },
             {
@@ -78,15 +72,7 @@ export const router = createHashRouter([
                 element: <AboutUs />
             },
             {
-                path: "/CaseStudies",
-                element: <AboutUs />
-            },
-            {
-                path: "/WhoWeAre",
-                element: <AboutUs />
-            },
-            {
-                path: "/Projects",
+                path: "/Product-Platform",
                 element: <Projects />
             },
             {
@@ -94,24 +80,8 @@ export const router = createHashRouter([
                 element: <Contact />
             },
             {
-                path: "/Services",
-                element: <AboutUs />
-            },
-            {
-                path: "/FAQs",
-                element: <AboutUs />
-            },
-            {
-                path: "/Testimonials",
-                element: <AboutUs />
-            },
-            {
-                path: "/Blog",
-                element: <AboutUs />
-            },
-            {
-                path: "/Process",
-                element: <AboutUs />
+                path: "/user",
+                element: <Auth />
             },
         ]
     },

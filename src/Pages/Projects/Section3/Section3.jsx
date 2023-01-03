@@ -5,26 +5,28 @@ const Section3 = () => {
     return (
         <div className='Section3'>
             <Row>
-                <Col xs={3}>
+                <Col xs={12} sm={6} md={3} className='inn'>
                     <div className='bar bar1'>
+                        <h3>Access </h3>
+                        <p>Get access to your Jobsite remotely</p>
                     </div>
                 </Col>
-                <Col xs={3}>
+                <Col xs={12} sm={6} md={3} className='inn'>
                     <div className='bar bar2'>
-                        <h4>Research & Analysis</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, maiores iste error expedita rem suscipit?</p>
+                        <h3>Analyze </h3>
+                        <p>Get Deep Analytics of your Resource Behavior </p>
                     </div>
                 </Col>
-                <Col xs={3}>
+                <Col xs={12} sm={6} md={3} className='inn'>
                     <div className='bar bar3'>
-                        <h4>Industry Development</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, maiores iste error expedita rem suscipit?</p>
+                        <h3>Plan </h3>
+                        <p>Get Safety and compliance tips from integrated AI </p>
                     </div>
                 </Col>
-                <Col xs={3}>
+                <Col xs={12} sm={6} md={3} className='inn'>
                     <div className='bar bar4'>
-                        <h4>Production Launch</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, maiores iste error expedita rem suscipit?</p>
+                        <h3>Safeguard </h3>
+                        <p>Two-way alarms and alerts in case of a breach. </p>
                     </div>
                 </Col>
             </Row>

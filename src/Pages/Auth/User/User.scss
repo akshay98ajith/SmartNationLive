@@ -1,0 +1,70 @@
+@import "../../../variables.scss";
+
+.User {
+    padding-top: 200px;
+    .fileUpload {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input {
+            display: none;
+        }
+        label {
+            cursor: pointer;
+            width: stretch;
+            text-align: center;
+            padding: 4rem;
+            background: #33cfab76;
+            border-radius: 10px;
+            border: 2px dashed $darkGreen;
+            transition: 0.3s ease;
+            &:hover {
+                background: #33cfabaf;
+            }
+        }
+        .btn {
+            background: $darkGreen;
+            color: #ffffff;
+            margin-top: 1rem;
+            width: fit-content;
+            padding: 0.5rem 2.5rem;
+        }
+    }
+    .resultCard {
+        border: 0;
+        padding: 2rem;
+        margin-top: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .resultImg {
+            height: 350px;
+        }
+        .safImg {
+            width: 75%;
+            margin: 1rem 0;
+        }
+        .rowCustom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+        }
+    }
+    .logOutBtn {
+        background: $darkGreen;
+        color: #ffffff;
+        margin-top: 3rem;
+        width: fit-content;
+        padding: 0.5rem 2.5rem;
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+    .User {
+        .container {
+            margin-bottom: 10rem;
+        }
+    }
+}

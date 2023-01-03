@@ -7,9 +7,10 @@
         width: 75%;
         margin: auto;
         img {
-            // width: 50%;
+            width: 100%;
+            height: 100%;
         }
-        .col-sm-6 {
+        .colNew {
             padding: 0;
         }
         .ProductCards {
@@ -33,6 +34,21 @@
                     color: #000000;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .ProductsList {
+        .row {
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .ProductsList {
+        .row {
+            width: 100%;
         }
     }
 }

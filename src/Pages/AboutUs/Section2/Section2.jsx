@@ -8,13 +8,17 @@ const Section2 = () => {
         <div className='aboutSection2'>
             <Container>
                 <Row className='d-flex justify-content-center align-items-center'>
-                    <Col>
-                        <h5>Comprehensive safety & compliance management from any device, all within our easy-to-use app. Manage your entire day-to-day safety program from one location.</h5>
-                        <p>
-                            AnchoRock Solutions is a construction safety software company helping improve jobsite safety, compliance, and digital safety management for construction companies around the U.S. since 2018. We believe that technology should make life easier for those working in the field so we strive to provide a platform that's as easy to use as it is time-saving.</p>
+                    <Col sm={12} md={5}>
+                        <div className="card _1">
+                            <h4>Mission </h4>
+                            <h5>Developing Safer & Smarter Jobsites With AI-powered Solutions For Urban Wellbeing.</h5>
+                        </div>
                     </Col>
-                    <Col>
-                        <img src={img} className='img-fluid' alt="" />
+                    <Col sm={12} md={5}>
+                        <div className="card _2">
+                            <h4>Vision</h4>
+                            <h5>We Exist To Invent A Better Everyday.</h5>
+                        </div>
                     </Col>
                 </Row>
             </Container>

@@ -7,9 +7,8 @@ const Section4 = () => {
         <>
             <div className='Section4'>
                 <div>
-                    <h5>Get a Quote</h5>
-                    <h4>Build Your Future Today</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem veritatis amet<br /> beatae ipsa rem impedit aperiam sed eaque deserunt.</p>
+                    <h4>Get a Free Site Survey, Consultation & Quote  </h4>
+                    <p>Safety Brain Experts will visit your job site and give you unbiased consultations on <br />how you can enhance your site for free. </p>
                     <Button label='Appointment' />
                 </div>
             </div>

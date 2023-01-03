@@ -11,8 +11,11 @@ const Section3 = () => {
                         <img src={img} alt="" className="img-fluid" />
                     </Col>
                     <Col>
-                        <p>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Without field adoption, AnchoRock – or any other digital solution, for that matter – stood little to no chance of succeeding. That’s why AnchoRock was designed from the ground up as a “mobile-first” platform, and the team has been hyper-focused on maintaining a design that is simple and easy to use since.</p>
-                        <p>Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa.</p>
+                        <h3>Ai Powered, Safety & Compliance Management Solution.</h3>
+                        <h5>Safety brain provides accessibility from any device within our Easy to use app. </h5>
+                        <p>Safety Brain is a cross-platform management app which allows you to connect with your job site seamlessly.</p>
+                        <p>Safety Brain helps you check the eligibility of your workforce towards smart safety and compliance and gives you the option to alert the authorities with a click of a button to help avoid fines. </p>
+                        <p>Enabling robust information at your fingertips to ensure Better Safety & Resource Management. </p>
                     </Col>
                 </Row>
             </Container>

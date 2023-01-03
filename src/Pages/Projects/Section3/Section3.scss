@@ -1,12 +1,12 @@
 .projectPage {
     .Section3 {
         .row {
-            .col-3 {
+            .inn {
                 padding: 0;
                 .bar {
                     height: 500px;
                     padding: 4rem;
-                    h4 {
+                    h3 {
                         font-size: 2.5rem;
                     }
                 }
@@ -14,6 +14,10 @@
                     background: url("../../../assets/bar1.png") no-repeat;
                     background-size: cover;
                     background-position: 50%;
+                    color: #ffffff;
+                    p {
+                        color: #ffffff;
+                    }
                 }
                 .bar2 {
                     background: url("../../../assets/bar2.png");

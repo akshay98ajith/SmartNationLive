@@ -12,24 +12,29 @@ const About = () => {
                 <Row className='d-flex justify-content-between align-items-center'>
                     <Col sm={12} md={6} className='text-center text-md-start'>
                         <div className="overflow-hidden">
-                            <motion.h2 className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>About Us</motion.h2>
+                            <motion.h2 className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>What is Safety Brain?</motion.h2>
                         </div>
                         <div className="overflow-hidden">
-                            <motion.h5 className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>Comprehensive safety & compliance management from any device, all within our easy-to-use app. Manage your entire day-to-day safety program from one location.</motion.h5>
+                            <motion.h5 className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>Streamlined, Controlled, Seamless & Automated Health & Safety Compliance Management Solution, Designed to Save Time & Resources.</motion.h5>
                         </div>
-                        <div className='my-5'>
+                        <div className='my-3'>
                             <div className="overflow-hidden">
                                 <motion.p className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
-                                    AnchoRock Solutions is a construction safety software company helping improve jobsite safety, compliance, and digital safety management for construction companies around the U.S. since 2018. We believe that technology should make life easier for those working in the field so we strive to provide a platform that's as easy to use as it is time-saving.
+                                    Safety Brain is a construction safety management solution which helps improve Jobsite safety, manage compliances and analyze accumulated data for Smart usage of Time & resources to avoid accidents & injuries.
                                 </motion.p>
                             </div>
                             <div className="overflow-hidden">
                                 <motion.p className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
-                                    Without field adoption, AnchoRock - or any other digital solution, for that matter – stood little to no chance of succeeding. That’s why AnchoRock was designed from the ground up as a “mobile-first” platform, and the team has been hyper-focused on maintaining a design that is simple and easy to use since.
+                                    The AI Engine and seamless connectivity within the Safety Brain Ecosystem are Designed to ensure adaptive suggestions towards effective workflow management.
+                                </motion.p>
+                            </div>
+                            <div className="overflow-hidden">
+                                <motion.p className='scrollAnim' initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                                    The Safety Brain Team is hyper-focused on ensuring seamless connectivity via all devices and platforms at all times.
                                 </motion.p>
                             </div>
                         </div>
-                        <Button label="Learn More" />
+                        <Button to='/user' label="Explore Safety Brain" />
                     </Col>
                     <Col sm={12} md={5} className="text-center">
                         <motion.img src={aboutImg} alt="" className="img-fluid" initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} />

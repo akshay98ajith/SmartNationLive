@@ -7,8 +7,9 @@ const Landing = () => {
         <div className='aboutLanding'>
             <div className="bgColor">
                 <Container>
-                    <h1>About Us</h1>
-                    <p>AnchoRock Solutions is a construction safety software company helping improve jobsite safety, compliance, and digital safety management for construction companies around the U.S. since 2018. We believe that technology should make life easier for those working in the field so we strive to provide a platform that's as easy to use as it is time-saving.</p>
+                    <h1>About Safety Brain</h1>
+                    <h4>Safety Brain is built to drive AI-Powered Digital Transformation to empower construction Job-Sites to be Safer, Smarter & Sustainable.</h4>
+                    <h5>We develop cutting-edge & responsible technology to expedite Smart Job-Site transformation.</h5>
                 </Container>
             </div>
         </div>

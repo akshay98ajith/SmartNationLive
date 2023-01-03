@@ -3,46 +3,46 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 import { useForm } from 'react-hook-form';
 import engineer from "./../../../assets/engineer.svg"
 import measuring from "./../../../assets/measuring.svg"
+import { motion } from 'framer-motion'
 import ruler from "./../../../assets/ruler.svg"
 import './Book.scss'
 const Book = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
-    console.log(errors);
     return (
         <div className='book'>
             <Container>
                 <Row className='d-flex justify-content-around align-items-center'>
-                    <Col sm={5}>
+                    <Col md={5}>
                         <h3>Book an Appointment</h3>
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <Row>
                                 <Col sm={6}>
-                                    <label className="form-label" for='name'>
+                                    <label className="form-label" >
                                         Name
                                     </label>
                                     <input className="form-control" name='name' type="text" placeholder="Name" {...register("Name", { required: true, maxLength: 80 })} />
                                 </Col>
                                 <Col sm={6}>
-                                    <label className="form-label" for='email'>
+                                    <label className="form-label" >
                                         Email
                                     </label>
                                     <input className="form-control" name='email' type="text" placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} />
                                 </Col>
                                 <Col sm={6}>
-                                    <label className="form-label" for='mobile'>
+                                    <label className="form-label" >
                                         Phone Number
                                     </label>
                                     <input className="form-control" type="number" name='mobile' placeholder="mobile" {...register("mobile")} />
                                 </Col>
                                 <Col sm={6}>
-                                    <label className="form-label" for='subject'>
+                                    <label className="form-label" >
                                         Subject
                                     </label>
                                     <input className="form-control" type="text" name='subject' placeholder="Subject" {...register("Subject")} />
                                 </Col>
                                 <Col sm={12}>
-                                    <label className="form-label" for='subject'>
+                                    <label className="form-label" >
                                         Message
                                     </label>
                                     <textarea className="form-control" type="textarea" name='message' rows="5" placeholder="Message" {...register("Message")} />
@@ -53,48 +53,45 @@ const Book = () => {
                             </button>
                         </form>
                     </Col>
-                    <Col sm={5}>
+                    <Col md={5}>
                         <div>
                             <Card className='upCard'>
                                 <div className="overflow-hidden">
-                                    <h3 className='text-center text-sm-start scrollAnim'>Easy, Paperless Tailgate Meetings & Toolbox Talks</h3>
-                                </div>
-                                <div className="overflow-hidden">
                                     <Row className='my-3 d-flex align-items-center text-center text-sm-start scrollAnim'>
                                         <Col sm={2}>
-                                            <img src={engineer} alt="" className="img-fluid mb-4 mb-sm-0" />
+                                            <motion.img initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} src={engineer} alt="" className="img-fluid mb-4 mb-sm-0" />
                                         </Col>
                                         <Col sm={10}>
-                                            <div>
-                                                <h6>Easy in the Field. Easy in the Office</h6>
-                                                <span>Smart nation is easy for everyone in the field, GCs, and anyone in between</span>
-                                            </div>
+                                            <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                                                <h6>Reliable</h6>
+                                                <span>Establish Transparent and On-Demand Workforce Safety Parameter Checks.</span>
+                                            </motion.div>
                                         </Col>
                                     </Row>
                                 </div>
                                 <div className="overflow-hidden">
                                     <Row className='my-3 d-flex align-items-center text-center text-sm-start scrollAnim'>
                                         <Col sm={2}>
-                                            <img src={ruler} alt="" className="img-fluid mb-4 mb-sm-0" />
+                                            <motion.img initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} src={ruler} alt="" className="img-fluid mb-4 mb-sm-0" />
                                         </Col>
                                         <Col sm={10}>
-                                            <div>
-                                                <h6>Huge Library of Topics + Personalized</h6>
-                                                <span>Smart nation arrives preloaded with a massive library of common safety topics</span>
-                                            </div>
+                                            <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                                                <h6>Seamless</h6>
+                                                <span>Enable Easy & Seamless Connections between On & Off-site Professionals.</span>
+                                            </motion.div>
                                         </Col>
                                     </Row>
                                 </div>
                                 <div className="overflow-hidden">
                                     <Row className='my-3 d-flex align-items-center text-center text-sm-start scrollAnim'>
                                         <Col sm={2}>
-                                            <img src={measuring} alt="" className="img-fluid mb-4 mb-sm-0" />
+                                            <motion.img initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} src={measuring} alt="" className="img-fluid mb-4 mb-sm-0" />
                                         </Col>
                                         <Col sm={10}>
-                                            <div>
-                                                <h6>Full Accountability & Transparency</h6>
-                                                <span>Quickly perform Toolbox Audits to ensure field users remain in full compliance</span>
-                                            </div>
+                                            <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                                                <h6>Customizable</h6>
+                                                <span>Implement Personalized & Customizable Machine Learning Experiences & empower yourself with Holistic Libraries of HSC Knowledge</span>
+                                            </motion.div>
                                         </Col>
                                     </Row>
                                 </div>

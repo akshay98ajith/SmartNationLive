@@ -3,8 +3,8 @@
 .productsLanding {
     background: url(../../../assets/aboutLanding.png) no-repeat;
     background-size: cover;
-    height: 40vh;
-    margin-top: 80px;
+    max-height: 550px;
+    height: 45vh;
     .bgColor {
         background: rgba(51, 207, 171, 0.8);
         height: 100%;

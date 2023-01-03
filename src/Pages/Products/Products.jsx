@@ -1,12 +1,16 @@
 import React from 'react'
-import Landing from './Landing/Landing'
-import List from './List/List'
-
+import { Suspense } from 'react'
+const Landing = React.lazy(() => import('./Landing/Landing'))
+const List = React.lazy(() => import('./List/List'))
 const Products = () => {
     return (
         <div className='pages'>
-            <Landing />
-            <List />
+            <Suspense fallback={<></>}>
+                <Landing />
+            </Suspense>
+            <Suspense fallback={<></>}>
+                <List />
+            </Suspense>
         </div>
     )
 }

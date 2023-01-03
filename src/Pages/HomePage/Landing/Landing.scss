@@ -3,22 +3,30 @@
 .landingSection {
     background: url(../../../assets/landingBg.png) no-repeat;
     background-size: cover;
-    height: 95vh;
-    max-height: 1080px;
-    padding-top: 69px;
-    min-height: 850px;
+    height: 80vh;
+    max-height: 980px;
+    min-height: 750px;
     .bgColor {
-        background: rgba(51, 207, 171, 0.8);
+        background: rgba(51, 207, 171, 0.849);
         height: 100%;
         display: flex;
         align-items: center;
         p {
             font-weight: 500;
-            color: $darkGreen;
+            color: #1d3d3d;
             font-family: "BossaExtended";
             animation: skewAnim 1s ease both;
             transform-origin: 0;
             overflow: hidden !important;
+            font-size: 1.6rem;
+        }
+        h5 {
+            animation: skewAnim 1s ease both;
+            font-family: "BossaExtended";
+            overflow: hidden !important;
+            margin: 1rem 1.5rem 2rem 0;
+            font-weight: 100;
+            font-size: 1rem;
         }
     }
     // h1{
