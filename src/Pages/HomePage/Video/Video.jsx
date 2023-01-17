@@ -15,7 +15,7 @@ const Video = () => {
                 </div>
                 <Row className='d-flex justify-content-evenly mt-5'>
                     <Col sm={12} md={6} lg={2}>
-                        <motion.div className="overflow-hidden" initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                        <motion.div  initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
                             <h4 className='scrollAnim'>Data Optimization</h4>
                         </motion.div>
                         <div className="overflow-hidden">
@@ -35,7 +35,7 @@ const Video = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={2}>
-                        <motion.div className="overflow-hidden" initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
+                        <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
                             <h4 className='scrollAnim'>Easy to Use</h4>
                         </motion.div>
                         <div className="overflow-hidden">
@@ -45,7 +45,7 @@ const Video = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={2}>
-                        <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} className="overflow-hidden">
+                        <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
                             <h4 className='scrollAnim'>Easy to Deploy</h4>
                         </motion.div>
                         <div className="overflow-hidden">
@@ -55,7 +55,7 @@ const Video = () => {
                         </div>
                     </Col>
                     <Col sm={12} md={6} lg={2}>
-                        <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }} className="overflow-hidden">
+                        <motion.div initial={{ opacity: 0, skewY: 5, translateY: 50 }} whileInView={{ opacity: 1, skewY: 0, translateY: 0 }} viewport={{ once: true }}>
                             <h4 className='scrollAnim'>24*7 Reliable Service</h4>
                         </motion.div>
                         <div className="overflow-hidden">
