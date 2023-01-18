@@ -1,21 +1,26 @@
 export const headLinks = [
   {
-    id: 1,
+    id: 0,
     label: "Home",
     link: "/",
   },
   {
-    id: 0,
+    id: 1,
     label: "Platform",
     link: "/Product-Platform",
   },
   {
-    id: 1,
+    id: 2,
     label: "About Us",
     link: "/AboutUs",
   },
   {
-    id: 2,
+    id: 3,
+    label: "Industries",
+    link: "/Industries",
+  },
+  {
+    id: 4,
     label: "Contact Us",
     link: "/Contact",
   },
@@ -23,8 +28,8 @@ export const headLinks = [
 
 export const footLinks = [
   {
-    id:0,
-    label:"User Login",
-    link:"/user"
+    id: 0,
+    label: "User Login",
+    link: "/user"
   }
 ];

@@ -16,9 +16,9 @@ const List = () => {
                         <img src={product1} alt="" className="img-fluid" />
                     </Col>
                     <Col md={6} className="ProductCards colNew">
-                        <h4>Service 1</h4>
+                        <h4>Construction Sites</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
-                        <Link to={`/Products/Service1`} className='btn '>Learn More</Link>
+                        {/* <Link to={`/Products/Service1`} className='btn '>Learn More</Link> */}
                     </Col>
                 </Row>
                 <Row className='flex-sm-row-reverse'>
@@ -26,9 +26,9 @@ const List = () => {
                         <img src={product2} alt="" className="img-fluid" />
                     </Col>
                     <Col md={6} className='ProductCards colNew'>
-                        <h4>Service 2</h4>
+                        <h4>Factories and Warehouse</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
-                        <Link to={`/Products/Service2`} className='btn '>Learn More</Link>
+                        {/* <Link to={`/Products/Service2`} className='btn '>Learn More</Link> */}
                     </Col>
                 </Row>
                 <Row>
@@ -36,9 +36,9 @@ const List = () => {
                         <img src={product3} alt="" className="img-fluid" />
                     </Col>
                     <Col md={6} className='ProductCards colNew'>
-                        <h4>Service 3</h4>
+                        <h4>Mines</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
-                        <Link to={`/Products/Service3`} className='btn '>Learn More</Link>
+                        {/* <Link to={`/Products/Service3`} className='btn '>Learn More</Link> */}
                     </Col>
                 </Row>
                 <Row className='flex-sm-row-reverse'>
@@ -46,9 +46,9 @@ const List = () => {
                         <img src={product4} alt="" className="img-fluid" />
                     </Col>
                     <Col md={6} className='ProductCards colNew'>
-                        <h4>Service 4</h4>
+                        <h4>Oil & Gas</h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci beatae, expedita tenetur voluptatibus id consectetur minima necessitatibus quod inventore officia vitae a culpa omnis! Expedita.</p>
-                        <Link to={`/Products/Service4`} className='btn '>Learn More</Link>
+                        {/* <Link to={`/Products/Service4`} className='btn '>Learn More</Link> */}
                     </Col>
                 </Row>
             </Container>
