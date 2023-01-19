@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[196],{2196:function(n,s,r){r.r(s),r.d(s,{default:function(){return t}});r(2791);var e=r(7022),i=r(184),t=function(){return(0,i.jsx)("div",{className:"productsLanding",children:(0,i.jsx)("div",{className:"bgColor",children:(0,i.jsx)(e.Z,{children:(0,i.jsx)("h1",{children:"Our Industries"})})})})}}}]);
+//# sourceMappingURL=196.743346e9.chunk.js.map
