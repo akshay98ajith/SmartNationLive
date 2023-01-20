@@ -51,22 +51,22 @@ export const router = createHashRouter([
                 path: "/Industries",
                 element: <Products />,
             },
-            {
-                path: "/Industries/Industries1",
-                element: <DetailPage title='Service 1' />
-            },
-            {
-                path: "/Industries/Industries2",
-                element: <DetailPage title='Service 2' />
-            },
-            {
-                path: "/Industries/Industries3",
-                element: <DetailPage title='Service 1' />
-            },
-            {
-                path: "/Industries/Industries4",
-                element: <DetailPage title='Service 1' />
-            },
+            // {
+            //     path: "/Industries/Industries1",
+            //     element: <DetailPage title='Service 1' />
+            // },
+            // {
+            //     path: "/Industries/Industries2",
+            //     element: <DetailPage title='Service 2' />
+            // },
+            // {
+            //     path: "/Industries/Industries3",
+            //     element: <DetailPage title='Service 1' />
+            // },
+            // {
+            //     path: "/Industries/Industries4",
+            //     element: <DetailPage title='Service 1' />
+            // },
             {
                 path: "/Pricing",
                 element: <AboutUs />

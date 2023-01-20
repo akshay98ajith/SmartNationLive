@@ -11,13 +11,13 @@ export const headLinks = [
   },
   {
     id: 2,
-    label: "About Us",
-    link: "/AboutUs",
+    label: "Industries",
+    link: "/Industries",
   },
   {
     id: 3,
-    label: "Industries",
-    link: "/Industries",
+    label: "About Us",
+    link: "/AboutUs",
   },
   {
     id: 4,
@@ -30,6 +30,6 @@ export const footLinks = [
   {
     id: 0,
     label: "User Login",
-    link: "/user"
-  }
+    link: "/user",
+  },
 ];
