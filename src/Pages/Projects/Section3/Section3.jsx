@@ -1,11 +1,28 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Section3.scss";
+import trip from "./slip.png";
+import fire from "./fire.png";
+import crash from "./collision.png";
+import danger from "./dangerzone.png";
+import confined from "./confined.png";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 const Section3 = () => {
+  const location = useLocation();
+  useEffect(() => {
+    const sectionToScroll = document.getElementById(location.hash.substring(1));
+    if (sectionToScroll) {
+      sectionToScroll.scrollIntoView();
+      const scrollPosition = window.pageYOffset;
+      console.log(scrollPosition);
+    }
+  }, []);
+
   return (
     <div className="Section3">
-      <div className="sec1">
-        <Container>
+      <div className="sec1" id="construction">
+        <Container className="mt-5 pt-5">
           <Row className="d-flex justify-content-center align-items-center">
             <Col
               sm={12}
@@ -14,79 +31,58 @@ const Section3 = () => {
               style={{ pointerEvents: "none" }}
             >
               <div className="bar d-flex justify-content-center">
-                <h2>
-                  PPE <br />
-                  Regulation
-                </h2>
+                <h2>Construction</h2>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn _1">
+              <div className="bar">
+                <img src={trip} width="100" alt="" className="img-fluid mt-4" />
+                <h3>Slips, Trips and falls</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn _2">
+              <div className="bar">
+                <img
+                  src={crash}
+                  width="250"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Vehicle/Machinery Collisions</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Helmet Violation</h3>
-                <p>
-                  All violations from wearing a helmet at workplaces are
-                  detected by AI and alert the HSE offices to rectify the
-                  problem. Furthermore, it identifies helmet color and
-                  reconciles them with the requirements of HSE for different
-                  personnel. To protect employees from accidents, the HSE team
-                  notifies the employees of any violations detected by the
-                  system.
-                </p>
+                <img
+                  src={danger}
+                  width="200"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Danger Zone Intrusion</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Harness Violation</h3>
-                <p>
-                  Working at heights has become a standard part of the job in
-                  many industries. But with height also comes a greater risk of
-                  falling. A harness is an effective tool for protecting workers
-                  from injury and death caused by falls. We can detect any
-                  failure to wear PPE in defined safety zones such as those
-                  involving work at height.
-                </p>
+                <img
+                  src={confined}
+                  width="200"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Confined Spaces Hazards</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Mask Violation</h3>
-                <p>
-                  Wearing a protective mask is a key part of a protection
-                  program in chemical or biological environments. During the
-                  COVID-19 pandemic, wearing masks extended to every crowded
-                  place like public places, public transportation, and offices.
-                  The PPE Regulation Scenario enables the HSE team to control
-                  mask wear protocols backed by an AI engine.
-                </p>
-              </div>
-            </Col>
-            <Col sm={12} md={4} className="inn">
-              <div className="bar">
-                <h3>Goggles Violation</h3>
-                <p>
-                  Workers exposed to dust or flying particles, such as in
-                  woodworking or who have to work around heat hazards, should
-                  wear goggles. It is important to use this type of protection
-                  in case of chemical splashes or vapors to prevent eye
-                  injuries. We ensure there is proper supervision of goggles
-                  wearing at dangerous sites with the necessary pre-defined
-                  regulations
-                </p>
-              </div>
-            </Col>
-            <Col sm={12} md={4} className="inn">
-              <div className="bar">
-                <h3>Boots Violation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                  doloribus tempora suscipit quo nemo id aliquam porro, vero
-                  distinctio illum blanditiis nam totam, neque esse. Quam ipsum
-                  et ab cumque necessitatibus veniam pariatur eveniet beatae
-                  recusandae dolorum, hic, qui dolore.
-                </p>
+                <img src={fire} width="100" alt="" className="img-fluid mt-4" />
+                <h3>Fires & Explosions</h3>
               </div>
             </Col>
           </Row>
+          <Link to={`/Product-Platform/Construction`} className="btn ">
+            Learn More
+          </Link>
         </Container>
       </div>
       <div className="sec2">
@@ -99,37 +95,63 @@ const Section3 = () => {
               style={{ pointerEvents: "none" }}
             >
               <div className="bar d-flex justify-content-center">
-                <h2>
-                  Work at <br />
-                  Height
-                </h2>
+                <h2>Mining</h2>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>PPE Control</h3>
-                <p>
-                  Different sites may require different regulations depending on
-                  the work environment. And according to this regulation,
-                  workers have to use a different set of personal protective
-                  equipment. HSE managers can set up specific safety regulations
-                  for each work at height site using our AI safety solution.
-                </p>
+                <img
+                  src={crash}
+                  width="250"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Vehicle Collision</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Safety Tag</h3>
-                <p>
-                  The construction site changes rapidly in accordance with
-                  development plans. It zones like scaffoldings, safety tags let
-                  workers know does it safe to work or not. Our machine vision
-                  AI recognizes standard safety tags and applies compliance
-                  guidelines to keep them safe.
-                </p>
+                <img src={fire} width="100" alt="" className="img-fluid mt-4" />
+                <h3>Explosions and Fires</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <img
+                  src={confined}
+                  width="200"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Confined Space Accidents</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <img
+                  src={confined}
+                  width="200"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Hazardous Gas Leak</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <img
+                  src={confined}
+                  width="200"
+                  alt=""
+                  className="img-fluid mt-4"
+                />
+                <h3>Ergonomic Hazards</h3>
               </div>
             </Col>
           </Row>
+          <Link to={`/Product-Platform/Oil&Gas`} className="btn ">
+            Learn More
+          </Link>
         </Container>
       </div>
       <div className="sec3">

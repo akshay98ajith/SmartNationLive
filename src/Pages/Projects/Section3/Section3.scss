@@ -12,6 +12,8 @@
                     padding: 4.5rem 3.5rem;
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
                     h2 {
                         font-size: 2.5rem;
                     }
@@ -61,6 +63,15 @@
                 }
             }
         }
+        .btn {
+            color: #154142;
+            width: fit-content;
+            border: 2px solid #154142;
+            padding: 0.9rem 4rem;
+            border-radius: 0;
+            display: flex;
+            margin: auto;
+        }
     }
 }
 
@@ -73,4 +84,3 @@
 .sec2 {
     padding: 2rem 0;
 }
-

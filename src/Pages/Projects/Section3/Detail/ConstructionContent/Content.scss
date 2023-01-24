@@ -1,0 +1,32 @@
+.ContentDesc {
+    .container {
+        padding: 5rem;
+    }
+    .img1Bg {
+        margin: 2rem 0;
+        background: url(./img1.png) no-repeat;
+        height: 50vh;
+        background-position: center;
+    }
+    .img2Bg {
+        margin: 2rem 0;
+        background: url(./img2.png) no-repeat;
+        height: 50vh;
+        background-position: 20%;
+    }
+    .img3Bg {
+        margin: 2rem 0;
+        background: url(./img3.png) no-repeat;
+        height: 50vh;
+        background-position: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .img1Bg {
+        background-position: right !important;
+    }
+    .img2Bg {
+        background-position: left !important;
+    }
+}

@@ -22,7 +22,9 @@ const List = () => {
               security costs and enjoy more intelligent, more effective security
               overall.
             </p>
-            {/* <Link to={`/Products/Service1`} className='btn '>Learn More</Link> */}
+            <Link to={`/Product-Platform#construction`} className="btn ">
+              Learn More
+            </Link>
           </Col>
         </Row>
         <Row className="flex-sm-row-reverse">

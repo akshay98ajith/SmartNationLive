@@ -6,13 +6,13 @@ export const headLinks = [
   },
   {
     id: 1,
-    label: "Platform",
-    link: "/Product-Platform",
+    label: "Industries",
+    link: "/Industries",
   },
   {
     id: 2,
-    label: "Industries",
-    link: "/Industries",
+    label: "Use Cases",
+    link: "/Product-Platform",
   },
   {
     id: 3,
