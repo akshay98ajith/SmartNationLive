@@ -6,10 +6,15 @@ import { headLinks } from "../../Constants/Constants";
 import headLogo from "./../../assets/headLogo.png";
 import "./Header.scss";
 const Header = () => {
-    
   return (
     <>
-      <Navbar expand="lg" className="header position-fixed w-100 bg-white py-4" onClick={()=>{console.log(Navbar);}}>
+      <Navbar
+        expand="lg"
+        className="header position-fixed w-100 bg-white py-4"
+        onClick={() => {
+          console.log(Navbar);
+        }}
+      >
         <Container className="justify-content-between">
           <Link to="">
             <Navbar.Brand>

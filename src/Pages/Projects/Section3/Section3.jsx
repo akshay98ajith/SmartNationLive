@@ -85,8 +85,8 @@ const Section3 = () => {
           </Link>
         </Container>
       </div>
-      <div className="sec2">
-        <Container>
+      <div className="sec2" id="mining">
+        <Container className="mt-5 pt-5">
           <Row className="d-flex justify-content-center align-items-center">
             <Col
               sm={12}
@@ -149,13 +149,13 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Oil&Gas`} className="btn ">
+          <Link to={`/Product-Platform/Mining`} className="btn ">
             Learn More
           </Link>
         </Container>
       </div>
-      <div className="sec3">
-        <Container>
+      <div className="sec3" id="manufacturing">
+        <Container className="mt-5 pt-5">
           <Row className="d-flex justify-content-center align-items-center">
             <Col
               sm={12}
@@ -164,73 +164,82 @@ const Section3 = () => {
               style={{ pointerEvents: "none" }}
             >
               <div className="bar d-flex justify-content-center">
-                <h2>Lifting</h2>
+                <h2>Manufacturing</h2>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Crane Fall Zone</h3>
-                <p>
-                  According to OSHA the area in which it is reasonably
-                  foreseeable that partially or completely suspended materials
-                  could fall in the event of an accident. Using AI, we detect
-                  crane fall zones and let you control the number of allowed
-                  people, authorized people, PPE regulations, and access limit.
-                </p>
+                <h3>Equipment Failure</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Lifting PPE Regulations</h3>
-                <p>
-                  To prevent a company's employees from harm caused by lifting
-                  risks such as falling objects, each lifting area needs to have
-                  a safety guideline for PPE. We provide various scenarios for
-                  different PPE requirements at the lifting area to protect
-                  members of the lifting crew during the lifting operation.
-                </p>
+                <h3>Electrical, Mechanical, or Chemical Hazards</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Wind Speed Alert</h3>
-                <p>
-                  The wind can affect any size crane, whether it is an
-                  all-terrain or crawler crane. Despite the fact that cranes
-                  with counterweights weigh significantly more, a strong enough
-                  wind can still cause catastrophic damage if not accounted for.
-                  Wind speed can be monitored by our wind speed alert using
-                  integrated wind speed sensors. If the wind speed exceeds a
-                  safety threshold, we can abort the lifting operation.
-                </p>
+                <h3>Product Defects</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Lifting Supervisor Control</h3>
-                <p>
-                  It is up to the crane supervisor to direct and supervise any
-                  lifting operation to ensure that it is carried out according
-                  to the method statement. A competent and suitably trained
-                  individual should have sufficient experience to carry out all
-                  relevant duties, as well as the authority to stop the lifting
-                  process if it deems it dangerous to proceed.
-                </p>
+                <h3>Theft & Security Breaches</h3>
               </div>
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Human Error Reduction </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                  doloribus tempora suscipit quo nemo id aliquam porro, vero
-                  distinctio illum blanditiis nam totam, neque esse. Quam ipsum
-                  et ab cumque necessitatibus veniam pariatur eveniet beatae
-                  recusandae dolorum, hic, qui dolore.
-                </p>
+                <h3>Mismanaged Fleet Operations</h3>
               </div>
             </Col>
           </Row>
+          <Link to={`/Product-Platform/Manufacturing`} className="btn ">
+            Learn More
+          </Link>
+        </Container>
+      </div>
+      <div className="sec4" id="FacilityManagement">
+        <Container className="mt-5 pt-5">
+          <Row className="d-flex justify-content-center align-items-center">
+            <Col
+              sm={12}
+              md={4}
+              className="inn"
+              style={{ pointerEvents: "none" }}
+            >
+              <div className="bar d-flex justify-content-center">
+                <h2>Facility Management</h2>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <h3>Tedious Maintenance</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <h3>Space Utilization</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <h3>Security Compromises</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <h3>Errors in Manual Inspection</h3>
+              </div>
+            </Col>
+            <Col sm={12} md={4} className="inn">
+              <div className="bar">
+                <h3>Equipment Monitoring & Maintenance</h3>
+              </div>
+            </Col>
+          </Row>
+          <Link to={`/Product-Platform/FacilityManagement`} className="btn ">
+            Learn More
+          </Link>
         </Container>
       </div>
     </div>

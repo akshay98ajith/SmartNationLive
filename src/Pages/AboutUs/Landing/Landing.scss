@@ -1,11 +1,10 @@
 @import "../../../variables.scss";
 
 .aboutLanding {
-    min-height: 350px;
     background: url(../../../assets/aboutLanding.png) no-repeat;
     background-size: cover;
     max-height: 550px;
-    height: 45vh;
+    height: 30vh;
     .bgColor {
         background: rgba(51, 207, 171, 0.8);
         height: 100%;

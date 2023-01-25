@@ -61,11 +61,43 @@ export const router = createHashRouter([
       },
       {
         path: "/Product-Platform/Construction",
-        element: <DetailPage title="Construction" construction/>,
+        element: (
+          <DetailPage
+            title="Construction"
+            description="Digitizing construction Jobsite to improve safety, enhance workflow and prevent environmental non-compliances using World’s first Scenario based AI, Video Analytics enabled Construction Management Software"
+            construction
+          />
+        ),
       },
       {
-        path: "/Product-Platform/Oil&Gas",
-        element: <DetailPage title="Mining" mining/>,
+        path: "/Product-Platform/Mining",
+        element: (
+          <DetailPage
+            title="Mining"
+            description="Deriving value from data using Scenario-based AI powered Video Analytics for critical mining sites to optimize processes, enhance decision-making and improve safety."
+            mining
+          />
+        ),
+      },
+      {
+        path: "/Product-Platform/Manufacturing",
+        element: (
+          <DetailPage
+            title="Manufacturing"
+            description="AI-powered industrial grade Video Analytics for ensuring real-time monitoring of manufacturing firms to improve process efficiency and ensure the health & safety of workers with minimum efforts and errors"
+            manufacturing
+          />
+        ),
+      },
+      {
+        path: "/Product-Platform/FacilityManagement",
+        element: (
+          <DetailPage
+            title="Facility Management"
+            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
+            facilitymanagement
+          />
+        ),
       },
       {
         path: "/Contact",
