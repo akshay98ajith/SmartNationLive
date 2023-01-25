@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[491],{3491:function(n,a,e){e.r(a),e.d(a,{default:function(){return t}});e(2791);var r=e(7022),s=e(184),t=function(){return(0,s.jsx)("div",{className:"aboutLanding",children:(0,s.jsx)("div",{className:"bgColor",children:(0,s.jsx)(r.Z,{children:(0,s.jsx)("h2",{children:"About Safety Brain"})})})})}}}]);
+//# sourceMappingURL=491.66b7fd67.chunk.js.map
