@@ -145,7 +145,7 @@ const Section3 = () => {
                   alt=""
                   className="img-fluid mt-4"
                 />
-                <h3>Ergonomic Hazards</h3>
+                <h3>Fall of Ground</h3>
               </div>
             </Col>
           </Row>
@@ -189,7 +189,7 @@ const Section3 = () => {
             </Col>
             <Col sm={12} md={4} className="inn">
               <div className="bar">
-                <h3>Mismanaged Fleet Operations</h3>
+                <h3>Logistics & Invetory Management</h3>
               </div>
             </Col>
           </Row>
