@@ -60,3 +60,75 @@
 .sec6 {
     padding: 2rem 0;
 }
+
+@media (max-width: 1199px) {
+    .projectPage {
+        .Section3 {
+            .row {
+                .inn {
+                    .bar {
+                        h2 {
+                            font-size: 2rem;
+                        }
+                        h3 {
+                            font-size: 1.3rem;
+                            margin-bottom: 1rem;
+                        }
+                        p {
+                            font-size: 1rem;
+                            transition: 0.7s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .projectPage {
+        .Section3 {
+            .row {
+                .inn {
+                    .bar {
+                        height: 25rem;
+                        h2 {
+                            font-size: 1.5rem;
+                        }
+                        h3 {
+                            font-size: 1.1rem;
+                            margin-bottom: 1rem;
+                        }
+                        p {
+                            font-size: 0.8rem;
+                            transition: 0.7s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .projectPage {
+        .Section3 {
+            .row {
+                .inn {
+                    .bar {
+                        height: 25rem;
+                        h2 {
+                            font-size: 2.5rem;
+                        }
+                        h3 {
+                            font-size: 1.5rem;
+                            margin-bottom: 1rem;
+                        }
+                        p {
+                            font-size: 1.1rem;
+                            transition: 0.7s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
