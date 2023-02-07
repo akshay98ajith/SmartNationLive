@@ -1,11 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Section3.scss";
-import trip from "./slip.png";
-import fire from "./fire.png";
-import crash from "./collision.png";
-import danger from "./dangerzone.png";
-import confined from "./confined.png";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 const Section3 = () => {
@@ -409,7 +404,7 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/FacilityManagement`} className="btn ">
+          <Link to={`/Product-Platform/Oil&Gas`} className="btn ">
             Learn More
           </Link>
         </Container>

@@ -5,6 +5,7 @@ import FacilityManagementContent from "./FacilityManagementContent/FacilityManag
 import Landing from "./Landing/Landing";
 import ManufacturingContent from "./ManufacturingContent/ManufacturingContent";
 import MiningContent from "./MiningContent/MiningContent";
+import OilandGasContent from "./Oil&GasContent/OilandGasContent";
 
 const DetailPage = (props) => {
   return (
@@ -15,6 +16,7 @@ const DetailPage = (props) => {
         {props.mining ? <MiningContent /> : ""}
         {props.manufacturing ? <ManufacturingContent /> : ""}
         {props.facilitymanagement ? <FacilityManagementContent /> : ""}
+        {props.oilandgas ? <OilandGasContent /> : ""}
       </div>
     </div>
   );

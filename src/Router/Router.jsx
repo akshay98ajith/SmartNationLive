@@ -100,6 +100,36 @@ export const router = createHashRouter([
         ),
       },
       {
+        path: "/Product-Platform/Oil&Gas",
+        element: (
+          <DetailPage
+            title="Oil & Gas"
+            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
+            oilandgas
+          />
+        ),
+      },
+      {
+        path: "/Product-Platform/Transportation",
+        element: (
+          <DetailPage
+            title="Transportation"
+            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
+            oilandgas
+          />
+        ),
+      },
+      {
+        path: "/Product-Platform/Healthcare",
+        element: (
+          <DetailPage
+            title="Healthcare"
+            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
+            oilandgas
+          />
+        ),
+      },
+      {
         path: "/Contact",
         element: <Contact />,
       },
