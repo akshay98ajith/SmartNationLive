@@ -25,7 +25,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Construction</h2>
               </div>
             </Col>
@@ -104,7 +104,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Mining</h2>
               </div>
             </Col>
@@ -179,7 +179,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Manufacturing</h2>
               </div>
             </Col>
@@ -260,7 +260,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Facility Management</h2>
               </div>
             </Col>
@@ -340,7 +340,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Oil and Gas</h2>
               </div>
             </Col>
@@ -418,7 +418,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Transportation</h2>
               </div>
             </Col>
@@ -481,7 +481,7 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/FacilityManagement`} className="btn ">
+          <Link to={`/Product-Platform/Transportation`} className="btn ">
             Learn More
           </Link>
         </Container>
@@ -495,7 +495,7 @@ const Section3 = () => {
               className="inn"
               style={{ pointerEvents: "none" }}
             >
-              <div className="bar d-flex justify-content-center">
+              <div className="bar d-flex justify-content-center head">
                 <h2>Healthcare</h2>
               </div>
             </Col>
@@ -559,7 +559,7 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/FacilityManagement`} className="btn ">
+          <Link to={`/Product-Platform/Healthcare`} className="btn ">
             Learn More
           </Link>
         </Container>

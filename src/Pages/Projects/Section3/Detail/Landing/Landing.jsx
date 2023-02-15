@@ -6,7 +6,7 @@ const Landing = (props) => {
     <div className="Landing">
       <div className="bgColor">
         <Container>
-          <h2>{props.title}</h2>
+          <h2 className="text-center">{props.title}</h2>
         </Container>
       </div>
     </div>

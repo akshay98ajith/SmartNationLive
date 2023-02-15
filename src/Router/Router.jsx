@@ -64,7 +64,6 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Construction"
-            description="Digitizing construction Jobsite to improve safety, enhance workflow and prevent environmental non-compliances using World’s first Scenario based AI, Video Analytics enabled Construction Management Software"
             construction
           />
         ),
@@ -74,7 +73,6 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Mining"
-            description="Deriving value from data using Scenario-based AI powered Video Analytics for critical mining sites to optimize processes, enhance decision-making and improve safety."
             mining
           />
         ),
@@ -84,7 +82,6 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Manufacturing"
-            description="AI-powered industrial grade Video Analytics for ensuring real-time monitoring of manufacturing firms to improve process efficiency and ensure the health & safety of workers with minimum efforts and errors"
             manufacturing
           />
         ),
@@ -94,7 +91,6 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Facility Management"
-            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
             facilitymanagement
           />
         ),
@@ -104,7 +100,6 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Oil & Gas"
-            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
             oilandgas
           />
         ),
@@ -114,8 +109,7 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Transportation"
-            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
-            oilandgas
+            transportation
           />
         ),
       },
@@ -124,8 +118,7 @@ export const router = createHashRouter([
         element: (
           <DetailPage
             title="Healthcare"
-            description="Redefining Facility Management with the power of Scenario-based AI to ensure fool-proof infrastructure maintenance using real-time and historical data"
-            oilandgas
+            healthcare
           />
         ),
       },
