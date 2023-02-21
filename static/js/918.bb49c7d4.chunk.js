@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[918],{3918:function(n,e,s){s.r(e),s.d(e,{default:function(){return r}});s(2791);var a=s(7022),i=s(184),r=function(){return(0,i.jsx)("div",{className:"Landing",children:(0,i.jsx)("div",{className:"bgColor",children:(0,i.jsx)(a.Z,{children:(0,i.jsx)("h2",{children:"The HSC Management Solution Built for Professionals. "})})})})}}}]);
-//# sourceMappingURL=918.bb49c7d4.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksmart_nation=self.webpackChunksmart_nation||[]).push([[918],{3918:function(n,s,e){e.r(s),e.d(s,{default:function(){return i}});e(2791);var r=e(7022),a=e(184),i=function(){return(0,a.jsx)("div",{className:"Landing",children:(0,a.jsx)("div",{className:"bgColor",children:(0,a.jsx)(r.Z,{children:(0,a.jsx)("h2",{children:"Our Use Cases"})})})})}}}]);
+//# sourceMappingURL=918.a12d344d.chunk.js.map
