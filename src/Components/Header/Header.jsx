@@ -5,15 +5,20 @@ import Button from "../Button/Button";
 import { headLinks } from "../../Constants/Constants";
 import headLogo from "./../../assets/headLogo.png";
 import "./Header.scss";
+import { useState } from "react";
 const Header = () => {
+  const [expanded, setExpanded] = useState(false);
   return (
     <>
       <Navbar
         expand="lg"
-        className="header position-fixed w-100 bg-white py-4"
-        onClick={() => {
-          console.log(Navbar);
-        }}
+        fixed="top"
+        className="header w-100 py-4"
+        bg="light"
+        variant="light"
+        expanded={expanded}
+        onToggle={() => setExpanded(!expanded)}
+        collapseOnSelect
       >
         <Container className="justify-content-between">
           <Link to="">
@@ -30,14 +35,20 @@ const Header = () => {
             >
               {headLinks.map((obj) => {
                 return (
-                  <Link to={obj.link} className="mx-3 navLinks" key={obj.id}>
+                  <Nav.Link
+                    as={Link}
+                    to={obj.link}
+                    className="mx-3 navLinks"
+                    key={obj.id}
+                    onClick={() => setExpanded(false)}
+                  >
                     {obj.label}
-                  </Link>
+                  </Nav.Link>
                 );
               })}
-              <Link to="/user">
+              <Nav.Link as={Link} to="/user" onClick={() => setExpanded(false)}>
                 <Button label="Free Trial" />
-              </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
           {/* </div> */}
