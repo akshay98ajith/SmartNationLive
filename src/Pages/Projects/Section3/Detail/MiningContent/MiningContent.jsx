@@ -14,7 +14,7 @@ const MiningContent = () => {
             className="d-flex justify-content-between align-items-center"
             style={{ height: "inherit" }}
           >
-            <Col xs={3}>
+            <Col md={3}>
               <h3>PPE Detection</h3>
               <p>
                 The dynamic AI monitoring system detects and alerts instances of
@@ -23,10 +23,10 @@ const MiningContent = () => {
                 the like.
               </p>
             </Col>
-            <Col xs={6} className="text-center">
+            <Col md={6} className="text-center">
               <img className="img-fluid" src={img1} alt="" />
             </Col>
-            <Col xs={3}>
+            <Col md={3}>
               <h3>Work at Height Monitoring</h3>
               <p>
                 The smart monitoring solution monitors different working at
@@ -40,11 +40,16 @@ const MiningContent = () => {
       <div className="bg">
         <Container style={{ height: "-webkit-fill-available" }}>
           <Row
-            className="d-flex justify-content-around align-items-center"
+            className="d-flex justify-content-around align-items-start"
             style={{ height: "inherit" }}
           >
-            <Col xs={4}>
-              <img src={img2} alt="" className="img-fluid" />
+            <Col md={6}>
+              <img
+                src={img2}
+                alt=""
+                className="img-fluid d-flex mx-auto mb-2"
+                style={{ height: "193px" }}
+              />
               <h3>Machinery Collision Detection</h3>
               <p>
                 Through video analytics instances of machinery and human
@@ -52,8 +57,12 @@ const MiningContent = () => {
                 management.
               </p>
             </Col>
-            <Col xs={4}>
-              <img src={img3} alt="" className="img-fluid" />
+            <Col md={6}>
+              <img
+                src={img3}
+                alt=""
+                className="img-fluid d-flex mx-auto mb-2"
+              />
               <h3>Object Free Fall Detection</h3>
               <p>
                 AI video analytics can detect instances of falls of ground from
