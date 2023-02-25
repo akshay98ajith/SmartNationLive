@@ -10,13 +10,13 @@ const TransportationContent = () => {
   return (
     <div>
       <Container>
-        <Row className="d-flex justify-content-center align-items-end">
-          <Col xs={4} className="text-center p-5">
+        <Row className="d-flex justify-content-center align-items-start">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img1} alt="" className="img-fluid mb-5" />
             <h4>Vehicle monitoring</h4>
             <p>Safety Brain tracks the location and performance of vehicles.</p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img2} alt="" className="img-fluid mb-5" />
             <h4>Loading / unloading</h4>
             <p>
@@ -24,7 +24,7 @@ const TransportationContent = () => {
               and efficiency.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img3} alt="" className="img-fluid mb-5" />
             <h4>Advanced Security Surveillance</h4>
             <p>
@@ -32,7 +32,7 @@ const TransportationContent = () => {
               facility without any blind spot
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img4} alt="" className="img-fluid mb-5" />
             <h4>Driver behavior</h4>
             <p>
@@ -40,7 +40,7 @@ const TransportationContent = () => {
               accidents.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img5} alt="" className="img-fluid mb-5" />
             <h4>Carbon emissions</h4>
             <p>
@@ -48,7 +48,7 @@ const TransportationContent = () => {
               improvement.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img6} alt="" className="img-fluid mb-5" />
             <h4>Geofencing</h4>
             <p>

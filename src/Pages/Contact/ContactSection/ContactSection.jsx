@@ -10,23 +10,12 @@ const ContactSection = () => {
     //     <ContactForm />
     // </div>
     <Container>
-      <Row className="d-flex justify-content-center align-items-center ContactInfo flex-sm-row-reverse    ">
+      <Row className="d-flex justify-content-center ContactInfo flex-sm-row-reverse mt-5">
         <Col md={5}>
           <ContactForm />
         </Col>
-        <Col md={5}>
+        <Col md={5} className="mt-5">
           <h4>Get In Touch</h4>
-          {/* <Row className="d-flex justify-content-center align-items-center">
-            <Col sm={2}>
-              <img src={tel} alt="" className="img-fluid" />
-            </Col>
-            <Col sm={10}>
-              <p style={{ fontWeight: "900" }}>Tel</p>
-              <p>
-                <a href="tel:+027900000">02-790-0000</a>
-              </p>
-            </Col>
-          </Row> */}
           <Row className="d-flex justify-content-center align-items-center">
             <Col sm={2}>
               <img src={mail} alt="" className="img-fluid" />

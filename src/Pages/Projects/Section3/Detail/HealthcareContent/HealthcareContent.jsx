@@ -10,8 +10,8 @@ const HealthcareContent = () => {
   return (
     <div>
       <Container>
-        <Row className="d-flex justify-content-center align-items-end">
-          <Col xs={4} className="text-center p-5">
+        <Row className="d-flex justify-content-center align-items-start">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img1} alt="" className="img-fluid mb-5" />
             <h4>Visitor tracking</h4>
             <p>
@@ -19,7 +19,7 @@ const HealthcareContent = () => {
               hospital to ensure visitor safety and security
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img2} alt="" className="img-fluid mb-5" />
             <h4>Emergency response</h4>
             <p>
@@ -27,7 +27,7 @@ const HealthcareContent = () => {
               and more effective responses in case of medical emergencies.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img3} alt="" className="img-fluid mb-5" />
             <h4>Employee tracking</h4>
             <p>
@@ -35,7 +35,7 @@ const HealthcareContent = () => {
               workers to optimize workflow and ensure employee safety.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img4} alt="" className="img-fluid mb-5" />
             <h4>Patient monitoring</h4>
             <p>
@@ -43,7 +43,7 @@ const HealthcareContent = () => {
               healthcare providers if any abnormal activity is detected.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img5} alt="" className="img-fluid mb-5" />
             <h4>Medication tracking</h4>
             <p>
@@ -51,7 +51,7 @@ const HealthcareContent = () => {
               ensure accurate dispensing and prevent medication errors
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img6} alt="" className="img-fluid mb-5" />
             <h4>Waste Classification & Management</h4>
             <p>

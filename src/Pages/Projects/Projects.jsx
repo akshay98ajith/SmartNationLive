@@ -26,7 +26,9 @@ const Projects = () => {
         <Suspense fallback={<></>}>
           <Section4 />
         </Suspense>
-        <Book />
+        <Suspense fallback={<></>}>
+          <Book />
+        </Suspense>
       </div>
     </div>
   );

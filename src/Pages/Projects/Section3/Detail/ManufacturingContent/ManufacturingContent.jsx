@@ -11,10 +11,13 @@ const ManufacturingContent = () => {
       <div className="bg img1">
         <Container style={{ height: "-webkit-fill-available" }}>
           <Row
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center flex-row-reverse text-center text-sm-start"
             style={{ height: "inherit" }}
           >
-            <Col xs={5}>
+            <Col sm={6} className="text-center">
+              <img className="img-fluid" src={img1} alt="" />
+            </Col>
+            <Col sm={5}>
               <h3>PPE Detection</h3>
               <p>
                 The smart AI Monitoring system instantly alerts the on-site &
@@ -28,22 +31,19 @@ const ManufacturingContent = () => {
                 methods, and the like to ensure work at height safety.
               </p>
             </Col>
-            <Col xs={6} className="text-center">
-              <img className="img-fluid" src={img1} alt="" />
-            </Col>
           </Row>
         </Container>
       </div>
       <div className="bg img1">
         <Container style={{ height: "-webkit-fill-available" }}>
           <Row
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center text-center text-sm-start"
             style={{ height: "inherit" }}
           >
-            <Col xs={6} className="text-center">
+            <Col sm={6} className="text-center">
               <img className="img-fluid" src={img2} alt="" />
             </Col>
-            <Col xs={5}>
+            <Col sm={5}>
               <h3>Driver / Operator's Distraction Detection</h3>
               <p>
                 The dynamic AI Monitoring System tracks and monitors operator's
@@ -63,10 +63,13 @@ const ManufacturingContent = () => {
       <div className="bg img1">
         <Container style={{ height: "-webkit-fill-available" }}>
           <Row
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center flex-row-reverse text-center text-sm-start"
             style={{ height: "inherit" }}
           >
-            <Col xs={5}>
+            <Col sm={6} className="text-center">
+              <img className="img-fluid" src={img3} alt="" />
+            </Col>
+            <Col sm={5}>
               <h3>Unauthorized Intrusion Detection</h3>
               <p>
                 Instant alerts are sent out as soon as any intruder enters an
@@ -78,9 +81,6 @@ const ManufacturingContent = () => {
                 stakeholders) as soon as any incident of theft takes place to
                 take instant action on the case
               </p>
-            </Col>
-            <Col xs={6} className="text-center">
-              <img className="img-fluid" src={img3} alt="" />
             </Col>
           </Row>
         </Container>

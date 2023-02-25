@@ -10,8 +10,8 @@ const OilandGasContent = () => {
   return (
     <div className="oilandgasContent">
       <Container>
-        <Row className="d-flex justify-content-center align-items-end">
-          <Col xs={4} className="text-center p-5">
+        <Row className="d-flex justify-content-center align-items-start">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img1} alt="" className="img-fluid mb-5" />
             <h4>Pipeline monitoring</h4>
             <p>
@@ -19,7 +19,7 @@ const OilandGasContent = () => {
               real-time.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img2} alt="" className="img-fluid mb-5" />
             <h4>Suspicious/Unattended Object Alerts</h4>
             <p>
@@ -27,7 +27,7 @@ const OilandGasContent = () => {
               space
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img3} alt="" className="img-fluid mb-5" />
             <h4>Advanced Security Surveillance</h4>
             <p>
@@ -35,12 +35,12 @@ const OilandGasContent = () => {
               facility without any blind spot
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img4} alt="" className="img-fluid mb-5" />
             <h4>Asset tracking</h4>
             <p>Safety Brain monitors the location and movement of assets.</p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img5} alt="" className="img-fluid mb-5" />
             <h4>Worker performance</h4>
             <p>
@@ -48,7 +48,7 @@ const OilandGasContent = () => {
               performance.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img6} alt="" className="img-fluid mb-5" />
             <h4>Waste Classification & Management</h4>
             <p>

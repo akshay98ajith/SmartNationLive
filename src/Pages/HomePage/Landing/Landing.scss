@@ -6,6 +6,9 @@
     height: 80vh;
     max-height: 980px;
     min-height: 750px;
+    .slick{
+        position: absolute;
+    }
     .bgColor {
         background: rgba(51, 207, 171, 0.849);
         height: 100%;

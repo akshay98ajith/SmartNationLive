@@ -5,10 +5,12 @@ const Landing = React.lazy(() => import("./Landing/Landing"));
 const Contact = () => {
   return (
     <div className="pages">
-      <Suspense fallback={<div>Loading</div>}>
+      <Suspense fallback={<></>}>
         <Landing />
       </Suspense>
-      <ContactSection />
+      <Suspense fallback={<></>}>
+        <ContactSection />
+      </Suspense>
     </div>
   );
 };

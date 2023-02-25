@@ -12,8 +12,8 @@ const FacilityManagementContent = () => {
   return (
     <div className="FacilityManagementContent">
       <Container>
-        <Row className="d-flex justify-content-center align-items-end">
-          <Col xs={4} className="text-center p-5">
+        <Row className="d-flex justify-content-center align-items-start">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img1} alt="" className="img-fluid mb-5" />
             <h4>Automated Face Recognition</h4>
             <p>
@@ -21,7 +21,7 @@ const FacilityManagementContent = () => {
               and access in the facility
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img2} alt="" className="img-fluid mb-5" />
             <h4>Suspicious/Unattended Object Alerts</h4>
             <p>
@@ -29,7 +29,7 @@ const FacilityManagementContent = () => {
               space
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img3} alt="" className="img-fluid mb-5" />
             <h4>Automated Visitor Records</h4>
             <p>
@@ -37,7 +37,7 @@ const FacilityManagementContent = () => {
               better facilities space management
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img4} alt="" className="img-fluid mb-5" />
             <h4>Space Usage Utilization</h4>
             <p>
@@ -45,7 +45,7 @@ const FacilityManagementContent = () => {
               wearing hard hats and other PPE in hazardous mining environments.
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img5} alt="" className="img-fluid mb-5" />
             <h4>Advanced Security Surveillance</h4>
             <p>
@@ -53,7 +53,7 @@ const FacilityManagementContent = () => {
               facility without any blind spot
             </p>
           </Col>
-          <Col xs={4} className="text-center p-5">
+          <Col sm={6} md={4} className="text-center p-5">
             <img src={img6} alt="" className="img-fluid mb-5" />
             <h4>Waste Classification & Management</h4>
             <p>

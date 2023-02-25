@@ -7,7 +7,6 @@ import img3 from "./img4.png";
 const MiningContent = () => {
   return (
     <div className="miningContent">
-      {/* <div className="bg img1"></div> */}
       <div className="bg img1">
         <Container style={{ height: "-webkit-fill-available" }}>
           <Row
@@ -43,7 +42,7 @@ const MiningContent = () => {
             className="d-flex justify-content-around align-items-start"
             style={{ height: "inherit" }}
           >
-            <Col md={6}>
+            <Col md={6} className="text-center">
               <img
                 src={img2}
                 alt=""
@@ -57,7 +56,7 @@ const MiningContent = () => {
                 management.
               </p>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="text-center">
               <img
                 src={img3}
                 alt=""

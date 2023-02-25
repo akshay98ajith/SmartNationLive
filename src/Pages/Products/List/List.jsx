@@ -7,6 +7,7 @@ import manufacturing from "./manufacturing.png";
 import facManagement from "./facilityManagement.png";
 import oilgas from "./oil&gas.jpg";
 import transportation from "./transportation.jpg";
+import healthcare from "./healthcare.jpg"
 import { Link } from "react-router-dom";
 
 const List = () => {
@@ -111,7 +112,7 @@ const List = () => {
         </Row>
         <Row>
           <Col md={6} className="colNew">
-            <img src={facManagement} alt="" className="img-fluid" />
+            <img src={healthcare} alt="" className="img-fluid" />
           </Col>
           <Col md={6} className="ProductCards colNew">
             <h4>Healthcare</h4>
