@@ -18,7 +18,7 @@ const Section3 = () => {
     <div className="Section3">
       <div className="sec1" id="construction">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -90,14 +90,17 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Construction`} className="btn ">
+          <Link
+            to={`/Product-Platform/Construction`}
+            className="btn useCaseBtn"
+          >
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec2" id="mining">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -165,14 +168,14 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Mining`} className="btn ">
+          <Link to={`/Product-Platform/Mining`} className="btn useCaseBtn">
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec3" id="manufacturing">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -246,14 +249,17 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Manufacturing`} className="btn ">
+          <Link
+            to={`/Product-Platform/Manufacturing`}
+            className="btn useCaseBtn"
+          >
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec4" id="FacilityManagement">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -326,14 +332,17 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/FacilityManagement`} className="btn ">
+          <Link
+            to={`/Product-Platform/FacilityManagement`}
+            className="btn useCaseBtn"
+          >
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec5" id="Oil&Gas">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -404,14 +413,14 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Oil&Gas`} className="btn ">
+          <Link to={`/Product-Platform/Oil&Gas`} className="btn useCaseBtn">
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec6" id="Transportation">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -481,14 +490,17 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Transportation`} className="btn ">
+          <Link
+            to={`/Product-Platform/Transportation`}
+            className="btn useCaseBtn"
+          >
             Learn More
           </Link>
         </Container>
       </div>
       <div className="sec7" id="Healthcare">
         <Container className="mt-5 pt-5">
-          <Row className="d-flex justify-content-center align-items-center">
+          <Row className="d-flex justify-content-center align-items-stretch">
             <Col
               sm={12}
               md={4}
@@ -559,7 +571,7 @@ const Section3 = () => {
               </div>
             </Col>
           </Row>
-          <Link to={`/Product-Platform/Healthcare`} className="btn ">
+          <Link to={`/Product-Platform/Healthcare`} className="btn useCaseBtn">
             Learn More
           </Link>
         </Container>

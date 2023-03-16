@@ -1,15 +1,29 @@
 @import "../../variables.scss";
 
 footer {
-    padding: 5rem 0;
-    background: rgb(21, 65, 66);
-    background: linear-gradient(
-        90deg,
-        rgba(21, 65, 66, 1) 0%,
-        rgba(21, 65, 66, 1) 40%,
-        rgba(51, 207, 170, 1) 40%,
-        rgba(51, 207, 170, 1) 100%
-    );
+    // background: rgb(21, 65, 66);
+    // background: linear-gradient(
+    //     90deg,
+    //     rgba(21, 65, 66, 1) 0%,
+    //     rgba(21, 65, 66, 1) 40%,
+    //     rgba(51, 207, 170, 1) 40%,
+    //     rgba(51, 207, 170, 1) 100%
+    // );
+    .footStart {
+        padding: 5rem;
+        width: 40%;
+        background: $darkGreen;
+        display: flex;
+        justify-content: end;
+        .startInner {
+            width: 50%;
+        }
+    }
+    .footEnd {
+        padding: 5rem;
+        width: 60%;
+        background: $lightGreen;
+    }
     p {
         color: $white;
         margin: 2rem 0;
@@ -43,30 +57,93 @@ footer {
     }
     .copy {
         font-size: 1.1rem;
-        padding-top: 1.3rem;
-        color: $grey;
+        // padding-top: 1.3rem;
+        padding: 1rem 0;
+        margin: 0;
+        color: $white;
         font-weight: 900;
+        background: $darkGreen;
+        text-align: center;
     }
-    .social {
-        width: 60%;
-    }
+    // .social {
+    //     width: 60%;
+    // }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 1300px) {
     footer {
-        padding: 5rem 1rem;
-        background: linear-gradient(
-            180deg,
-            rgba(21, 65, 66, 1) 0%,
-            rgba(21, 65, 66, 1) 40%,
-            rgba(51, 207, 170, 1) 40%,
-            rgba(51, 207, 170, 1) 100%
-        );
-        h6 {
-            margin-top: 8rem;
+        .footStart {
+            .startInner {
+                width: 60%;
+            }
         }
-        .social {
+    }
+}
+@media (max-width: 1100px) {
+    footer {
+        .footStart {
+            .startInner {
+                width: 70%;
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    footer {
+        .footStart {
+            .startInner {
+                width: 80%;
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    footer {
+        .footStart {
+            .startInner {
+                width: 90%;
+            }
+        }
+    }
+}
+@media (max-width: 850px) {
+    footer {
+        .footStart {
+            .startInner {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    footer {
+        .footStart {
+        width: 100%;
+            .startInner {
+                width: 100%;
+            }
+        }
+        .footEnd {
             width: 100%;
         }
     }
 }
+
+// @media (max-width: 575px) {
+//     footer {
+//         padding: 5rem 1rem;
+//         background: linear-gradient(
+//             180deg,
+//             rgba(21, 65, 66, 1) 0%,
+//             rgba(21, 65, 66, 1) 40%,
+//             rgba(51, 207, 170, 1) 40%,
+//             rgba(51, 207, 170, 1) 100%
+//         );
+//         h6 {
+//             margin-top: 8rem;
+//         }
+//         .social {
+//             width: 100%;
+//         }
+//     }
+// }

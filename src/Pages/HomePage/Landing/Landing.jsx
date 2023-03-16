@@ -1,71 +1,62 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import Slider from "react-slick";
 import Button from "../../../Components/Button/Button";
 import "./Landing.scss";
-// import landingImg from "../../../assets/landingBg.png";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import landingImg from "../../../assets/landingBg.png";
+import construction from "../../Products/List/construction.png";
+import facMan from "../../Products/List/facilityManagement.png";
+import healthcare from "../../Products/List/healthcare.jpg";
+import manufacturing from "../../Products/List/manufacturing.png";
+import mining from "../../Products/List/mining.png";
+import oilgas from "../../Products/List/oil&gas.jpg";
+import transportation from "../../Products/List/transportation.jpg";
+import Slider from "react-slick";
 
 const Landing = () => {
-  // const setting = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   arrows: false,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  // };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+  };
   return (
     <section className="landingSection">
-      <div className="bgColor text-center text-md-start">
-        <Container style={{ marginBottom: "4rem" }}>
-      {/* <div className="slick">
-        <Slider {...setting}>
+      <div className="slick">
+        <Slider {...settings}>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={landingImg} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={construction} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={facMan} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={healthcare} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={manufacturing} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={mining} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
+            <img src={oilgas} className="slickImg" alt="" />
           </div>
           <div>
-            <img src={landingImg} alt="" />
-          </div>
-          <div>
-            <img src={landingImg} alt="" />
-          </div>
-          <div>
-            <img src={landingImg} alt="" />
-          </div>
-          <div>
-            <img src={landingImg} alt="" />
-          </div>
-          <div>
-            <img src={landingImg} alt="" />
-          </div>
-          <div>
-            <img src={landingImg} alt="" />
+            <img src={transportation} className="slickImg" alt="" />
           </div>
         </Slider>
-      </div> */}
+      </div>
+      <div className="bgColor text-center text-md-start">
+        <Container style={{ marginBottom: "4rem" }}>
           <h1>
             <div className="d-flex justify-content-center justify-content-md-start align-items-center">
               <div className="landAnim">S</div>

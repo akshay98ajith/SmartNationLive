@@ -1,19 +1,29 @@
 @import "../../../variables.scss";
 
 .landingSection {
-    background: url(../../../assets/landingBg.png) no-repeat;
     background-size: cover;
-    height: 80vh;
-    max-height: 980px;
-    min-height: 750px;
-    .slick{
+    height: 800px;
+    overflow: hidden;
+    .slick {
         position: absolute;
+        max-height: 980px;
+        min-height: 750px;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        .slickImg {
+            width: 100%;
+            height: 800px;
+        }
     }
     .bgColor {
-        background: rgba(51, 207, 171, 0.849);
+        background: rgba(51, 207, 171, 0.6);
         height: 100%;
         display: flex;
         align-items: center;
+        position: relative;
+        z-index: 0;
+        backdrop-filter: blur(2px);
         p {
             font-weight: 500;
             color: #1d3d3d;

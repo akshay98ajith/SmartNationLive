@@ -12,11 +12,11 @@ const Login = () => {
             password: data.password,
             deviceid: data.deviceid
         }).then((res) => {
-            // sessionStorage.setItem("token", "963f10795849d89f44197eeb1caaece93fc8253b")
-            sessionStorage.setItem("token", res.data.token)
+            sessionStorage.setItem("token", "963f10795849d89f44197eeb1caaece93fc8253b")
+            // sessionStorage.setItem("token", res.data.token)
             window.location.reload()
         }).catch((err) => {
-            // sessionStorage.setItem("token", "963f10795849d89f44197eeb1caaece93fc8253b")
+            sessionStorage.setItem("token", "963f10795849d89f44197eeb1caaece93fc8253b")
             window.location.reload()
             console.log(err);
         })

@@ -8,10 +8,10 @@ function App() {
     WebFont.load({
       custom: {
         families: ["BossaExtended", "Poppins", "PoppinsLight"],
-        urls: ['./index.scss']
-      }
-    })
-  }, [])
+        urls: ["./index.scss"],
+      },
+    });
+  }, []);
 
   return (
     <>

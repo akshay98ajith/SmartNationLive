@@ -43,7 +43,7 @@ const About = () => {
                   viewport={{ once: true }}
                 >
                   Safety Brain is a construction safety management solution
-                  which helps improve Jobsite safety, manage compliances and
+                  which helps improve Job-site safety, manage compliances and
                   analyze accumulated data for Smart usage of Time & resources
                   to avoid accidents & injuries.
                 </motion.p>

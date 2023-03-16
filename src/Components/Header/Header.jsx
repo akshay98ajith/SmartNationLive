@@ -38,11 +38,12 @@ const Header = () => {
                   <Nav.Link
                     as={Link}
                     to={obj.link}
-                    className="mx-3 navLinks"
+                    className="mx-3"
                     key={obj.id}
                     onClick={() => setExpanded(false)}
+                    activeClassName="active"
                   >
-                    {obj.label}
+                    <div className="navLinks">{obj.label}</div>
                   </Nav.Link>
                 );
               })}

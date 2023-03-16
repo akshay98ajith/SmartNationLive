@@ -1,3 +1,5 @@
+@import "../../../variables.scss";
+
 .projectPage {
     .Section3 {
         .row {
@@ -8,12 +10,12 @@
                 transition: 0.7s ease;
                 overflow: hidden;
                 .bar {
-                    height: 30rem;
+                    min-height: 25rem;
                     padding: 4.5rem 3.5rem;
                     display: flex;
                     flex-direction: column;
                     // justify-content: space-between;
-                    text-align: justify;
+                    text-align: center;
                     align-items: center;
                     h2 {
                         font-size: 2.5rem;
@@ -42,11 +44,15 @@
         .btn {
             color: #154142;
             width: fit-content;
-            border: 2px solid #154142;
+            border: 2.5px solid #154142;
             padding: 0.9rem 4rem;
             border-radius: 0;
             display: flex;
             margin: auto;
+            &:hover {
+                background: $darkGreen;
+                color: $white;
+            }
         }
     }
 }
@@ -94,7 +100,6 @@
             .row {
                 .inn {
                     .bar {
-                        height: 25rem;
                         h2 {
                             font-size: 1.5rem;
                         }
